@@ -8,7 +8,7 @@ description: >-
   and formal verification.
 
 url: "https://fieldsryanchristopher-sys.github.io"
-baseurl: "https://fieldsryanchristopher-sys.github.io/fields-research/"
+baseurl: "/fields-research"
 
 author:
   name: "Ryan Christopher Fields"
