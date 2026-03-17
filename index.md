@@ -1,5 +1,7 @@
 ---
 layout: home
-title: Home
+author_profile: true
 ---
-# Welcome to Fields Research
+
+# Research Overview
+Welcome to the repository for AI governance and formal verification research.
