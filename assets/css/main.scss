@@ -1,0 +1,65 @@
+---
+---
+
+@import "minimal-mistakes/skins/navy-gold";
+@import "minimal-mistakes";
+
+/* --- Dark background typography fixes --- */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.page__content {
+  line-height: 1.75;
+}
+
+/* --- Gold horizontal rules --- */
+hr {
+  border-color: #3A4E66;
+}
+
+/* --- Softer heading hierarchy --- */
+h1, h2 {
+  color: #D4A843;
+}
+
+h3, h4 {
+  color: #E8C76A;
+}
+
+/* --- Table styling --- */
+table {
+  color: #F5F0E8;
+}
+
+th {
+  background-color: #2A3A4E;
+  color: #D4A843;
+}
+
+td {
+  border-color: #3A4E66;
+}
+
+/* --- Sidebar TOC --- */
+.toc__menu a {
+  color: #B8AFA0;
+}
+
+.toc__menu a:hover {
+  color: #D4A843;
+}
+
+/* --- Blockquotes (used for section taglines) --- */
+blockquote {
+  border-left-color: #D4A843;
+  color: #B8AFA0;
+  font-style: italic;
+}
+
+/* --- Code blocks --- */
+.highlight {
+  border: 1px solid #3A4E66;
+  border-radius: 4px;
+}
