@@ -1,20 +1,23 @@
+# Theme Settings
 remote_theme: "mmistakes/minimal-mistakes@4.28.0"
 minimal_mistakes_skin: "navy-gold"
+repository: "fieldsryanchristopher-sys/fields-research" # Forces GitHub to map assets correctly
 
+# Site Settings
 title: "Fields Research"
 name: "Ryan Christopher Fields"
 description: >-
   Independent research across AI governance, applied theory,
   and formal verification.
 
+# Pathing (No trailing slashes!)
 url: "https://fieldsryanchristopher-sys.github.io"
 baseurl: "/fields-research"
 
+# Author Info
 author:
   name: "Ryan Christopher Fields"
-  bio: >-
-    Historian tracing the AI technological revolution
-    post-fluency.
+  bio: "Historian tracing the AI technological revolution post-fluency."
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -29,19 +32,25 @@ footer:
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:fieldsryanchristopher@gmail.com"
 
+# Default Layouts
 defaults:
   - scope:
       path: ""
     values:
-      layout: single
+      layout: "single"
+      author_profile: true
       toc: true
       toc_sticky: true
 
+# Plugins (jekyll-remote-theme must be first)
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-gist
 
-encoding: utf-8
+# Technical
+encoding: "utf-8"
 markdown: kramdown
 kramdown:
   input: GFM
