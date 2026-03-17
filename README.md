@@ -1,3 +1,10 @@
+---
+layout: single
+title: "Fields Research"
+toc: true
+toc_sticky: true
+---
+
 # Fields Research
 
 Independent research across AI governance, applied theory,
