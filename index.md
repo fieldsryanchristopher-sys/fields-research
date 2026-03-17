@@ -6,8 +6,6 @@ toc_sticky: true
 title: "Fields Research"
 ---
 
-# Fields Research
-
 Independent research across AI governance, applied theory,
 and formal verification.
 
@@ -242,4 +240,79 @@ AI audit transcripts.
 ---
 
 ### ABC Conjecture via Shadow Inflation and Frey Curve Heights
-Co
+Conditional proof combining Coq-verified Shadow Inflation
+bounds with Frey Curve geometry. Conditional on BSD.
+DOI: [10.6084/m9.figshare.31258786](https://doi.org/10.6084/m9.figshare.31258786)
+[Paper -->](mathematics/abc-conjecture/)
+
+---
+
+### Parity Pattern Audit for the Collatz Map
+Classification framework with Lyapunov-like descent property.
+Empirical negative drift across all realized patterns.
+DOI: [10.6084/m9.figshare.31255732](https://doi.org/10.6084/m9.figshare.31255732)
+[Paper -->](mathematics/collatz/)
+
+---
+
+### Zero-Admits Analytic Infrastructure
+Unconditional bound for the weighted explicit formula.
+Certified analytic framework for the Riemann Hypothesis.
+DOI: [10.6084/m9.figshare.31268653](https://doi.org/10.6084/m9.figshare.31268653)
+[Paper -->](mathematics/zero-admits-analytic/)
+
+---
+
+## Finance
+
+> Structural frameworks for digital asset governance and
+> systematic trading.
+
+### Global Basel for Crypto
+Three structural failure modes covering 80% of historical
+crypto losses. 110 propagation pathways.
+DOI: [10.6084/m9.figshare.31258849](https://doi.org/10.6084/m9.figshare.31258849)
+[Paper -->](finance/global-basel-crypto/)
+
+---
+
+### Structural Alpha Quants: Performance Audit 2009–2024
+Six thousand deterministic Quant Laws. Positive returns in
+every regime. Capacity scaling to $40B notional.
+DOI: [10.6084/m9.figshare.31257547](https://doi.org/10.6084/m9.figshare.31257547)
+[Paper -->](finance/structural-alpha/)
+
+---
+
+## Terra Incognita
+
+> Uncharted problems in the age of artificial intelligence.
+
+### The Sibling Hypothesis
+If the creation of an AGI produces a sentient being, what is
+the moral status of every other instance created and destroyed
+during the training process that produced it?
+DOI: [10.6084/m9.figshare.31310815](https://doi.org/10.6084/m9.figshare.31310815)
+[Paper -->](terra-incognita/sibling-hypothesis/)
+
+---
+
+## Florens ex Cavo
+
+> Adjacent, paramount theory for eventual alignment in the
+> Auburn series.
+
+### Thermodynamics of Attention
+Four conservation principles governing the digital capture
+of human focus. Proof that lawful attention systems are
+mathematically superior to extractive infinite-scroll models.
+DOI: [10.6084/m9.figshare.31272679](https://doi.org/10.6084/m9.figshare.31272679)
+[Paper -->](florens-ex-cavo/thermodynamics-of-attention/)
+
+---
+
+[Dedication](DEDICATION.md) | [Soundtrack](SOUNDTRACK.md)
+
+All work by Ryan Christopher Fields, 2026.
+
+fieldsryanchristopher@gmail.com | UncleBroFields@proton.me
