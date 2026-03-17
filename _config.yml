@@ -1,0 +1,48 @@
+remote_theme: "mmistakes/minimal-mistakes@4.28.0"
+minimal_mistakes_skin: "navy-gold"
+
+title: "Fields Research"
+name: "Ryan Christopher Fields"
+description: >-
+  Independent research across AI governance, applied theory,
+  and formal verification.
+
+url: "https://fieldsryanchristopher-sys.github.io"
+baseurl: "/fields-research"
+
+author:
+  name: "Ryan Christopher Fields"
+  bio: >-
+    Historian tracing the AI technological revolution
+    post-fluency.
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:fieldsryanchristopher@gmail.com"
+    - label: "Figshare"
+      icon: "fas fa-fw fa-link"
+      url: "https://figshare.com/authors/Ryan_Fields/18787488"
+
+footer:
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:fieldsryanchristopher@gmail.com"
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: single
+      toc: true
+      toc_sticky: true
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+
+encoding: utf-8
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
