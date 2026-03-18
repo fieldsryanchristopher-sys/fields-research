@@ -22,24 +22,23 @@ researcher, or someone who reads proofs for a living. You don't
 need motivation or analogies. You want the axiom inventory, the
 proof chain, the trust boundary, and a straight answer.
 
-**What you'll get:** A blunt, technical audit. The AI will trace
-every step of the Coq formalization, cross-reference it against
-the analytical arguments in the paper, identify exactly what's
-proved versus what's assumed, check the exponent accounting, and
-give you a direct verdict. No hedging. No hand-holding.
+**What you'll get:** A blunt, technical audit of the entire
+paper. The AI will trace every step of the Coq formalization,
+cross-reference it against the analytical arguments, identify
+exactly what's proved versus what's assumed, check the exponent
+accounting, and give you a direct verdict — including whether
+it found any mathematical errors. No hedging. No hand-holding.
 
 > **Copy this prompt:**
 >
 > I'm a working mathematician. I've uploaded the Angular
 > Cancellation Lemma manuscript and its Coq formalization.
 > Read the full PDF and the complete .v source file. Give me
-> a rigorous audit: axiom inventory, the full proof chain from
-> factor_A through angular_cancellation_lemma, the trust
-> boundary at per_mode_res_bound and whether the analytical
-> arguments in Section 4.5 justify it, exponent accounting,
-> and your honest verdict on correctness. Tell me precisely
-> what is proved, what is assumed, and what remains open.
-> Be direct.
+> a rigorous audit of the entire paper: axiom inventory, the
+> full proof chain, exponent accounting, and whether every
+> analytical argument is justified. Did you find any
+> mathematical errors? Tell me precisely what is proved, what
+> is assumed, and what remains open. Be direct.
 
 ---
 
@@ -55,9 +54,10 @@ people are excited about it.
 will explain what the Navier–Stokes equations are, why there's
 a million-dollar prize attached to them, what this result found,
 and what it means that a computer verified every step. It'll be
-honest about what this doesn't solve. You'll come away
-understanding the big picture and feeling like you belong in the
-conversation — because you do.
+honest about what this doesn't solve — and whether it found
+any mathematical errors. You'll come away understanding the big
+picture and feeling like you belong in the conversation —
+because you do.
 
 > **Copy this prompt:**
 >
@@ -68,8 +68,8 @@ conversation — because you do.
 > what's the million-dollar prize, what did this paper find,
 > and what does it mean that a computer checked the proof. Use
 > the paper's own analogies where they help. Be honest about
-> what it doesn't solve. Talk to me like a smart friend, not
-> a student.
+> what it doesn't solve. Did you find any mathematical errors?
+> Talk to me like a smart friend, not a student.
 
 ---
 
@@ -96,42 +96,43 @@ Practical, direct, focused on what matters for your world.
 > formalization. First, confirm whether the mathematics is
 > sound. Then focus on implications: what does the cascade
 > locality result mean for computational fluid dynamics used
-> in civilian applications, aerospace, and weather modeling? What does it
-> mean for startup categories? What does machine verification offer that
-> traditional peer review doesn't? Be concrete and practical.
+> in civilian applications, aerospace, and weather modeling?
+> What does it mean for startup categories? What does machine
+> verification offer that traditional peer review doesn't?
+> Be concrete and practical.
 
 ---
 
 ## Journey 4 — "What Does This Mean for AI?"
 
 **This one's for you if:** You work in AI — as a researcher,
-engineer, investor, or journalist. You want to know what the
-human-AI collaboration actually looked like, what the FIELDS
-Protocol is as a methodology, and what the AI audit results
-reveal about where frontier models are right now in mathematical
-reasoning.
+engineer, investor, or journalist. A historian with AI fluency
+just produced a deterministic, machine-verified result on one
+of the hardest open problems in mathematics. You want to
+understand what that means.
 
-**What you'll get:** A technical but narrative-driven analysis.
-The AI will walk you through the collaboration methodology, what
-it means that the Coq formalization compiled on first pass, how
-the FIELDS Protocol works as an evaluation framework, and what
-the model comparison results show. Fair to all models discussed.
-Honest about what this is — a single extraordinary data point —
-and what it signals.
+**What you'll get:** A concrete analysis of what this result
+signals — about what's now possible when human domain insight
+meets AI capability, about which categories of previously
+intractable problems are now approachable, and about what this
+means for the AI industry, for research methodology, and for
+who gets to contribute to frontier science.
 
 > **Copy this prompt:**
 >
 > I'm in the AI industry. I've uploaded the Angular
 > Cancellation Lemma manuscript and its Coq formalization.
-> After confirming the math is sound, focus on the AI story:
-> how was human-AI collaboration used to develop this result?
-> What does it mean that the Coq formalization compiled on
-> first pass? What is the FIELDS Protocol as a methodology
-> for evaluating AI mathematical reasoning? If the paper
-> includes AI audit transcripts, walk me through the model
-> comparison results — be precise, be fair, and frame it as
-> what it is. What does this signal about where AI-assisted
-> mathematics is headed?
+> A historian with AI fluency just produced a deterministic,
+> machine-verified geometric result on one of the hardest
+> open problems in mathematics — developed in collaboration
+> with a frontier AI system, with the Coq formalization
+> compiling on first submission. What does this mean? What
+> does it signal about what's now possible when human domain
+> insight meets AI capability? What categories of problems
+> that were previously intractable are now approachable? What
+> does this mean for the AI industry, for research
+> methodology, and for who gets to contribute to frontier
+> science? Be concrete about the implications.
 
 ---
 
@@ -140,25 +141,26 @@ and what it signals.
 **This one's for you if:** You're a researcher — PDE analysis,
 formal methods, turbulence theory, or a graduate student looking
 for a problem worth your time. You want to know what's genuinely
-new, what's open, and where the most promising paths forward are.
+new, what this opens up, and where the most promising paths
+forward are.
 
 **What you'll get:** A collaborator's assessment. The AI will
-evaluate novelty against existing literature, then focus on the
-open problems: the enstrophy gap, why five closure approaches
-failed, which research directions are most promising, what it
-would take to formalize the remaining hypothesis in Coq, and
-where this work should be published. 
-The kind of conversation you'd have over a whiteboard.
+evaluate what's genuinely novel, what the cascade locality
+result makes possible that wasn't possible before, and which
+research directions are most promising — both for the
+Navier–Stokes problem specifically and for the methodology
+of machine-verified mathematics more broadly.
 
 > **Copy this prompt:**
 >
-> I'm a researcher looking for my next problem. I've uploaded
-> the Angular Cancellation Lemma manuscript and its Coq
-> formalization. Assess what's genuinely novel here relative
-> to existing PDE literature. Then go deep on the enstrophy
-> gap in Section 4.6 — what does closure actually require,
-> why did each of the five approaches in Remark 4.31 fail,
-> and which research directions are most promising? What
-> would it take to formalize per_mode_res_bound in Coq?
+> I'm a researcher. I've uploaded the Angular Cancellation
+> Lemma manuscript and its Coq formalization. I want to
+> understand the full landscape this result opens up. What is
+> genuinely new here? What does the cascade locality result
+> make possible that wasn't possible before? What are the most
+> promising research directions coming out of this — both for
+> the Navier–Stokes problem specifically and for the
+> methodology of machine-verified mathematics more broadly?
 > Where should this be published and which communities need
-> to see it? Talk to me like a collaborator.
+> to see it? Talk to me like a collaborator who wants to
+> build on this.
