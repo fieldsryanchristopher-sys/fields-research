@@ -1,0 +1,1987 @@
+DIGEST 9f44631913dd7dc1dee9b32030225a0a
+FNavierStokesACL
+R3416:3425 HB.structures <> <> lib
+R3457:3469 mathcomp.ssreflect.all_ssreflect <> <> lib
+R3471:3481 mathcomp.algebra.all_algebra <> <> lib
+R3513:3517 mathcomp.reals.reals <> <> lib
+R3519:3524 mathcomp.reals.signed <> <> lib
+R3526:3533 mathcomp.analysis.topology_theory.topology <> <> lib
+R3535:3544 mathcomp.analysis.normedtype <> <> lib
+R3546:3554 mathcomp.analysis.sequences <> <> lib
+R3586:3589 mathcomp.zify.zify <> <> lib
+R3591:3594 mathcomp.algebra_tactics.ring <> <> lib
+R3596:3598 mathcomp.algebra_tactics.lra <> <> lib
+R3692:3704 mathcomp.ssreflect.order Order.TTheory <> mod
+R3706:3717 mathcomp.algebra.ssralg GRing.Theory <> mod
+R3719:3728 mathcomp.algebra.archimedean Num.Theory <> mod
+sec 3982:3987 <> ACL_T3
+var 4000:4000 ACL_T3 R
+R4004:4011 mathcomp.reals.reals Real.Exports realType abbrev
+def 4085:4086 <> Z3
+R4098:4101 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4105:4106 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4102:4104 mathcomp.algebra.ssrint <> int variant
+def 4122:4123 <> o0
+R4127:4129 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R4135:4138 mathcomp.ssreflect.fintype <> ord0 def
+def 4152:4153 <> o1
+R4157:4159 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R4166:4172 mathcomp.ssreflect.fintype <> Ordinal constr
+R4178:4180 Coq.ssr.ssrbool <> isT def
+def 4194:4195 <> o2
+R4199:4201 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R4208:4214 mathcomp.ssreflect.fintype <> Ordinal constr
+R4220:4222 Coq.ssr.ssrbool <> isT def
+def 4237:4242 <> norm2Z
+R4249:4250 NavierStokesACL <> Z3 def
+binder 4245:4245 <> k:3
+R4255:4257 mathcomp.algebra.ssrint <> int variant
+R4299:4301 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4280:4282 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R4264:4264 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R4274:4278 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R4265:4265 NavierStokesACL <> k:3 var
+R4267:4270 mathcomp.ssreflect.fintype <> ord0 def
+R4272:4273 NavierStokesACL <> o0 def
+R4283:4283 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R4293:4297 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R4284:4284 NavierStokesACL <> k:3 var
+R4286:4289 mathcomp.ssreflect.fintype <> ord0 def
+R4291:4292 NavierStokesACL <> o1 def
+R4302:4302 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R4312:4316 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R4303:4303 NavierStokesACL <> k:3 var
+R4305:4308 mathcomp.ssreflect.fintype <> ord0 def
+R4310:4311 NavierStokesACL <> o2 def
+def 4364:4365 <> R3
+R4377:4380 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4382:4383 mathcomp.algebra.matrix <> ::type_scope:'''rV['_x_']_'_x not
+R4381:4381 NavierStokesACL <> ACL_T3.R var
+def 4399:4401 <> dot
+R4410:4411 NavierStokesACL <> R3 def
+binder 4404:4404 <> u:4
+binder 4406:4406 <> v:5
+R4416:4416 NavierStokesACL <> ACL_T3.R var
+R4423:4428 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R4430:4432 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R4434:4435 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+binder 4429:4429 <> i:6
+binder 4429:4429 <> i:7
+binder 4429:4429 <> i:8
+R4444:4446 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R4436:4436 NavierStokesACL <> u:4 var
+R4438:4441 mathcomp.ssreflect.fintype <> ord0 def
+R4443:4443 NavierStokesACL <> i:6 var
+R4447:4447 NavierStokesACL <> v:5 var
+R4449:4452 mathcomp.ssreflect.fintype <> ord0 def
+R4454:4454 NavierStokesACL <> i:6 var
+def 4469:4471 <> sca
+R4478:4478 NavierStokesACL <> ACL_T3.R var
+binder 4474:4474 <> a:9
+R4486:4487 NavierStokesACL <> R3 def
+binder 4482:4482 <> v:10
+R4492:4493 NavierStokesACL <> R3 def
+R4500:4505 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R4507:4509 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R4511:4513 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R4526:4526 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+binder 4506:4506 <> i:11
+R4515:4517 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R4514:4514 NavierStokesACL <> a:9 var
+R4518:4518 NavierStokesACL <> v:10 var
+R4520:4523 mathcomp.ssreflect.fintype <> ord0 def
+R4525:4525 NavierStokesACL <> i:11 var
+def 4541:4543 <> nsq
+R4550:4551 NavierStokesACL <> R3 def
+binder 4546:4546 <> v:12
+R4556:4556 NavierStokesACL <> ACL_T3.R var
+R4561:4563 NavierStokesACL <> dot def
+R4567:4567 NavierStokesACL <> v:12 var
+R4565:4565 NavierStokesACL <> v:12 var
+def 4582:4584 <> Z2R
+R4591:4592 NavierStokesACL <> Z3 def
+binder 4587:4587 <> k:13
+R4597:4598 NavierStokesACL <> R3 def
+R4605:4610 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R4612:4614 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R4616:4618 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R4637:4637 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+binder 4611:4611 <> i:14
+R4636:4636 NavierStokesACL <> ACL_T3.R var
+R4619:4619 mathcomp.algebra.ssrint <> ::ring_scope:x_'%:~R' not
+R4628:4632 mathcomp.algebra.ssrint <> ::ring_scope:x_'%:~R' not
+R4620:4620 NavierStokesACL <> k:13 var
+R4622:4625 mathcomp.ssreflect.fintype <> ord0 def
+R4627:4627 NavierStokesACL <> i:14 var
+def 4652:4657 <> norm2R
+R4664:4665 NavierStokesACL <> Z3 def
+binder 4660:4660 <> k:15
+R4670:4670 NavierStokesACL <> ACL_T3.R var
+R4675:4675 mathcomp.algebra.ssrint <> ::ring_scope:x_'%:~R' not
+R4684:4688 mathcomp.algebra.ssrint <> ::ring_scope:x_'%:~R' not
+R4676:4681 NavierStokesACL <> norm2Z def
+R4683:4683 NavierStokesACL <> k:15 var
+var 5012:5014 ACL_T3 Nsh
+R5018:5020 Coq.Init.Datatypes <> nat ind
+var 5034:5037 ACL_T3 hNsh
+R5043:5045 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R5046:5048 NavierStokesACL <> ACL_T3.Nsh var
+var 5064:5065 ACL_T3 kj
+R5075:5078 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5069:5071 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R5072:5074 NavierStokesACL <> ACL_T3.Nsh var
+R5079:5079 NavierStokesACL <> ACL_T3.R var
+var 5093:5095 ACL_T3 hkj
+binder 5106:5106 <> j:22
+R5110:5112 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<'_x not
+R5113:5114 NavierStokesACL <> ACL_T3.kj var
+R5116:5116 NavierStokesACL <> j:22 var
+var 5129:5130 ACL_T3 Ej
+R5140:5143 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R5134:5136 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R5137:5139 NavierStokesACL <> ACL_T3.Nsh var
+R5144:5144 NavierStokesACL <> ACL_T3.R var
+var 5158:5160 ACL_T3 hEj
+binder 5171:5171 <> j:27
+R5175:5178 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R5179:5180 NavierStokesACL <> ACL_T3.Ej var
+R5182:5182 NavierStokesACL <> j:27 var
+var 5195:5196 ACL_T3 k0
+R5200:5200 NavierStokesACL <> ACL_T3.R var
+var 5214:5216 ACL_T3 hk0
+R5221:5223 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<'_x not
+R5224:5225 NavierStokesACL <> ACL_T3.k0 var
+var 5407:5411 ACL_T3 C_ACL
+R5415:5415 NavierStokesACL <> ACL_T3.R var
+var 5429:5433 ACL_T3 hCACL
+R5438:5440 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<'_x not
+R5441:5445 NavierStokesACL <> ACL_T3.C_ACL var
+def 5745:5748 <> subZ
+R5757:5758 NavierStokesACL <> Z3 def
+binder 5751:5751 <> k:38
+binder 5753:5753 <> p:39
+R5763:5764 NavierStokesACL <> Z3 def
+R5771:5776 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R5778:5780 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R5782:5784 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+R5804:5804 mathcomp.algebra.matrix <> ::ring_scope:'\row_'_'('_x_'<'_x_')'_x not
+binder 5777:5777 <> i:40
+R5793:5795 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R5785:5785 NavierStokesACL <> k:38 var
+R5787:5790 mathcomp.ssreflect.fintype <> ord0 def
+R5792:5792 NavierStokesACL <> i:40 var
+R5796:5796 NavierStokesACL <> p:39 var
+R5798:5801 mathcomp.ssreflect.fintype <> ord0 def
+R5803:5803 NavierStokesACL <> i:40 var
+def 5819:5822 <> dotZ
+R5831:5832 NavierStokesACL <> Z3 def
+binder 5825:5825 <> u:41
+binder 5827:5827 <> v:42
+R5837:5839 mathcomp.algebra.ssrint <> int variant
+R5846:5851 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R5853:5855 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R5857:5858 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+binder 5852:5852 <> i:43
+binder 5852:5852 <> i:44
+binder 5852:5852 <> i:45
+R5867:5869 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R5859:5859 NavierStokesACL <> u:41 var
+R5861:5864 mathcomp.ssreflect.fintype <> ord0 def
+R5866:5866 NavierStokesACL <> i:43 var
+R5870:5870 NavierStokesACL <> v:42 var
+R5872:5875 mathcomp.ssreflect.fintype <> ord0 def
+R5877:5877 NavierStokesACL <> i:43 var
+def 5892:5899 <> in_shell
+R5906:5908 Coq.Init.Datatypes <> nat ind
+binder 5902:5902 <> j:46
+R5916:5917 NavierStokesACL <> Z3 def
+binder 5912:5912 <> p:47
+R5922:5925 Coq.Init.Datatypes <> bool ind
+R5959:5962 Coq.Init.Datatypes <> ::bool_scope:x_'&&'_x not
+R5941:5944 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<='_x not
+R5934:5936 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R5938:5940 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'.-1' not
+R5937:5937 NavierStokesACL <> j:46 var
+R5945:5946 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R5955:5955 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R5947:5952 NavierStokesACL <> norm2Z def
+R5954:5954 NavierStokesACL <> p:47 var
+R5975:5977 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R5964:5965 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R5974:5974 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R5966:5971 NavierStokesACL <> norm2Z def
+R5973:5973 NavierStokesACL <> p:47 var
+R5979:5981 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R5982:5982 NavierStokesACL <> j:46 var
+def 6000:6007 <> resonant
+R6014:6015 NavierStokesACL <> Z3 def
+binder 6010:6010 <> k:48
+R6023:6025 Coq.Init.Datatypes <> nat ind
+binder 6019:6019 <> j:49
+R6033:6034 NavierStokesACL <> Z3 def
+binder 6029:6029 <> p:50
+R6039:6042 Coq.Init.Datatypes <> bool ind
+R6049:6052 Coq.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R6065:6072 Coq.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R6094:6102 Coq.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R6116:6126 Coq.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R6133:6134 Coq.ssr.ssrbool <> ::bool_scope:'['_'&&'_x_','_x_','_'..'_','_x_'&'_x_']' not
+R6053:6060 NavierStokesACL <> in_shell def
+R6064:6064 NavierStokesACL <> p:50 var
+R6062:6062 NavierStokesACL <> j:49 var
+R6073:6080 NavierStokesACL <> in_shell def
+R6085:6088 NavierStokesACL <> subZ def
+R6092:6092 NavierStokesACL <> p:50 var
+R6090:6090 NavierStokesACL <> k:48 var
+R6082:6082 NavierStokesACL <> j:49 var
+R6104:6108 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R6115:6115 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R6103:6103 NavierStokesACL <> p:50 var
+R6113:6114 NavierStokesACL <> Z3 def
+R6128:6131 mathcomp.ssreflect.eqtype <> ::bool_scope:x_'!='_x not
+R6127:6127 NavierStokesACL <> p:50 var
+R6132:6132 NavierStokesACL <> k:48 var
+def 6212:6225 <> perp_sq_scaled
+R6234:6235 NavierStokesACL <> Z3 def
+binder 6228:6228 <> k:51
+binder 6230:6230 <> p:52
+R6240:6242 mathcomp.algebra.ssrint <> int variant
+R6268:6270 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R6257:6259 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R6249:6254 NavierStokesACL <> norm2Z def
+R6256:6256 NavierStokesACL <> p:52 var
+R6260:6265 NavierStokesACL <> norm2Z def
+R6267:6267 NavierStokesACL <> k:51 var
+R6271:6271 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R6280:6284 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R6272:6275 NavierStokesACL <> dotZ def
+R6279:6279 NavierStokesACL <> k:51 var
+R6277:6277 NavierStokesACL <> p:52 var
+var 6298:6303 ACL_T3 c0_num
+R6307:6309 Coq.Init.Datatypes <> nat ind
+var 6321:6326 ACL_T3 c0_den
+R6330:6332 Coq.Init.Datatypes <> nat ind
+var 6346:6352 ACL_T3 hc0_den
+R6358:6360 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R6361:6366 NavierStokesACL <> ACL_T3.c0_den var
+var 6383:6391 ACL_T3 hc0_small
+R6402:6404 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R6396:6401 NavierStokesACL <> ACL_T3.c0_num var
+R6405:6410 NavierStokesACL <> ACL_T3.c0_den var
+def 6428:6439 <> is_collinear
+R6448:6449 NavierStokesACL <> Z3 def
+binder 6442:6442 <> k:61
+binder 6444:6444 <> p:62
+R6454:6457 Coq.Init.Datatypes <> bool ind
+R6503:6505 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'<'_x not
+R6465:6465 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R6487:6491 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R6502:6502 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R6466:6467 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R6486:6486 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R6468:6481 NavierStokesACL <> perp_sq_scaled def
+R6485:6485 NavierStokesACL <> p:62 var
+R6483:6483 NavierStokesACL <> k:61 var
+R6498:6500 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R6492:6497 NavierStokesACL <> ACL_T3.c0_den var
+R6506:6506 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R6517:6521 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R6539:6539 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'*'_x not
+R6513:6515 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R6507:6512 NavierStokesACL <> ACL_T3.c0_num var
+R6522:6522 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R6534:6537 mathcomp.ssreflect.ssrnat <> ::nat_scope:x_'^'_x not
+R6523:6524 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R6533:6533 mathcomp.algebra.ssrint IntDist ::nat_scope:'`|'_x_'|' not
+R6525:6530 NavierStokesACL <> norm2Z def
+R6532:6532 NavierStokesACL <> k:61 var
+def 6557:6569 <> is_transverse
+R6578:6579 NavierStokesACL <> Z3 def
+binder 6572:6572 <> k:63
+binder 6574:6574 <> p:64
+R6584:6587 Coq.Init.Datatypes <> bool ind
+R6594:6597 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R6614:6614 Coq.ssr.ssrbool <> ::bool_scope:'~~'_x not
+R6598:6609 NavierStokesACL <> is_collinear def
+R6613:6613 NavierStokesACL <> p:64 var
+R6611:6611 NavierStokesACL <> k:63 var
+var 6910:6914 ACL_T3 u_hat
+R6920:6923 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R6918:6919 NavierStokesACL <> Z3 def
+R6924:6925 NavierStokesACL <> R3 def
+var 7006:7013 ACL_T3 div_free
+R7028:7029 NavierStokesACL <> Z3 def
+binder 7024:7024 <> k:67
+R7053:7055 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7032:7034 NavierStokesACL <> dot def
+R7047:7049 NavierStokesACL <> Z2R def
+R7051:7051 NavierStokesACL <> k:67 var
+R7037:7041 NavierStokesACL <> ACL_T3.u_hat var
+R7043:7043 NavierStokesACL <> k:67 var
+var 7069:7078 ACL_T3 shell_list
+R7088:7091 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7082:7084 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R7085:7087 NavierStokesACL <> ACL_T3.Nsh var
+R7092:7094 mathcomp.ssreflect.seq <> seq abbrev
+R7096:7097 NavierStokesACL <> Z3 def
+var 7111:7123 ACL_T3 shell_correct
+binder 7134:7134 <> j:72
+binder 7136:7136 <> k:73
+R7159:7161 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7142:7146 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R7141:7141 NavierStokesACL <> k:73 var
+R7147:7156 NavierStokesACL <> ACL_T3.shell_list var
+R7158:7158 NavierStokesACL <> j:72 var
+R7162:7169 NavierStokesACL <> in_shell def
+R7179:7179 NavierStokesACL <> k:73 var
+R7172:7174 mathcomp.ssreflect.eqtype <> val abbrev
+R7176:7176 NavierStokesACL <> j:72 var
+var 7192:7199 ACL_T3 res_list
+R7205:7208 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7203:7204 NavierStokesACL <> Z3 def
+R7215:7218 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7209:7211 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R7212:7214 NavierStokesACL <> ACL_T3.Nsh var
+R7219:7221 mathcomp.ssreflect.seq <> seq abbrev
+R7223:7224 NavierStokesACL <> Z3 def
+var 7238:7248 ACL_T3 res_correct
+binder 7259:7259 <> k:78
+binder 7261:7261 <> j:79
+binder 7263:7263 <> p:80
+R7286:7288 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R7269:7273 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R7268:7268 NavierStokesACL <> p:80 var
+R7274:7281 NavierStokesACL <> ACL_T3.res_list var
+R7285:7285 NavierStokesACL <> j:79 var
+R7283:7283 NavierStokesACL <> k:78 var
+R7289:7296 NavierStokesACL <> resonant def
+R7308:7308 NavierStokesACL <> p:80 var
+R7301:7303 mathcomp.ssreflect.eqtype <> val abbrev
+R7305:7305 NavierStokesACL <> j:79 var
+R7298:7298 NavierStokesACL <> k:78 var
+def 7386:7393 <> coupling
+R7402:7403 NavierStokesACL <> Z3 def
+binder 7396:7396 <> k:83
+binder 7398:7398 <> p:84
+R7408:7408 NavierStokesACL <> ACL_T3.R var
+R7445:7449 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R7415:7417 NavierStokesACL <> dot def
+R7430:7432 NavierStokesACL <> Z2R def
+R7435:7438 NavierStokesACL <> subZ def
+R7442:7442 NavierStokesACL <> p:84 var
+R7440:7440 NavierStokesACL <> k:83 var
+R7420:7424 NavierStokesACL <> ACL_T3.u_hat var
+R7426:7426 NavierStokesACL <> p:84 var
+R7450:7452 NavierStokesACL <> dot def
+R7474:7478 NavierStokesACL <> ACL_T3.u_hat var
+R7480:7480 NavierStokesACL <> k:83 var
+R7455:7459 NavierStokesACL <> ACL_T3.u_hat var
+R7462:7465 NavierStokesACL <> subZ def
+R7469:7469 NavierStokesACL <> p:84 var
+R7467:7467 NavierStokesACL <> k:83 var
+def 7560:7562 <> VSj
+R7569:7571 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R7572:7574 NavierStokesACL <> ACL_T3.Nsh var
+binder 7565:7565 <> j:85
+R7579:7579 NavierStokesACL <> ACL_T3.R var
+R7586:7591 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R7593:7596 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R7609:7614 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R7597:7606 NavierStokesACL <> ACL_T3.shell_list var
+R7608:7608 NavierStokesACL <> j:85 var
+binder 7592:7592 <> k:86
+binder 7592:7592 <> k:87
+binder 7592:7592 <> k:88
+R7615:7620 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R7622:7625 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R7638:7639 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R7626:7633 NavierStokesACL <> ACL_T3.res_list var
+R7637:7637 NavierStokesACL <> j:85 var
+R7635:7635 NavierStokesACL <> k:86 var
+binder 7621:7621 <> p:89
+binder 7621:7621 <> p:90
+binder 7621:7621 <> p:91
+R7640:7647 NavierStokesACL <> coupling def
+R7651:7651 NavierStokesACL <> p:89 var
+R7649:7649 NavierStokesACL <> k:86 var
+var 7921:7926 ACL_T3 CS_sum
+R7942:7944 Coq.Init.Datatypes <> nat ind
+binder 7938:7938 <> n:92
+R7958:7961 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R7954:7956 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R7957:7957 NavierStokesACL <> n:92 var
+R7962:7962 NavierStokesACL <> ACL_T3.R var
+binder 7948:7948 <> a:93
+binder 7950:7950 <> b:94
+R7997:8002 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R7968:7968 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R7991:7995 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R7969:7974 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R7976:7978 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R7980:7981 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R7979:7979 NavierStokesACL <> n:92 var
+binder 7975:7975 <> i:95
+binder 7975:7975 <> i:96
+binder 7975:7975 <> i:97
+R7985:7987 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R7982:7982 NavierStokesACL <> a:93 var
+R7984:7984 NavierStokesACL <> i:95 var
+R7988:7988 NavierStokesACL <> b:94 var
+R7990:7990 NavierStokesACL <> i:95 var
+R8003:8003 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R8027:8031 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R8055:8055 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R8004:8009 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R8011:8013 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R8015:8016 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R8014:8014 NavierStokesACL <> n:92 var
+binder 8010:8010 <> i:98
+binder 8010:8010 <> i:99
+binder 8010:8010 <> i:100
+R8017:8017 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8021:8025 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8018:8018 NavierStokesACL <> a:93 var
+R8020:8020 NavierStokesACL <> i:98 var
+R8032:8037 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R8039:8041 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R8043:8044 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R8042:8042 NavierStokesACL <> n:92 var
+binder 8038:8038 <> i:101
+binder 8038:8038 <> i:102
+binder 8038:8038 <> i:103
+R8045:8045 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8049:8053 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8046:8046 NavierStokesACL <> b:94 var
+R8048:8048 NavierStokesACL <> i:101 var
+def 8151:8156 <> size_R
+R8163:8165 mathcomp.ssreflect.seq <> seq abbrev
+R8167:8168 NavierStokesACL <> Z3 def
+binder 8159:8159 <> s:106
+R8173:8173 NavierStokesACL <> ACL_T3.R var
+R8178:8178 mathcomp.algebra.ssralg <> ::ring_scope:x_'%:R' not
+R8185:8188 mathcomp.algebra.ssralg <> ::ring_scope:x_'%:R' not
+R8179:8182 mathcomp.ssreflect.seq <> size def
+R8184:8184 NavierStokesACL <> s:106 var
+var 8198:8204 ACL_T3 CS_list
+R8220:8222 mathcomp.ssreflect.seq <> seq abbrev
+R8224:8225 NavierStokesACL <> Z3 def
+binder 8216:8216 <> l:107
+R8235:8238 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8233:8234 NavierStokesACL <> Z3 def
+R8239:8239 NavierStokesACL <> ACL_T3.R var
+binder 8229:8229 <> f:108
+R8272:8277 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R8245:8245 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8266:8270 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8246:8251 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8253:8256 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8258:8259 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8257:8257 NavierStokesACL <> l:107 var
+binder 8252:8252 <> p:109
+binder 8252:8252 <> p:110
+binder 8252:8252 <> p:111
+R8260:8261 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R8265:8265 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R8262:8262 NavierStokesACL <> f:108 var
+R8264:8264 NavierStokesACL <> p:109 var
+R8286:8288 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R8278:8283 NavierStokesACL <> size_R def
+R8285:8285 NavierStokesACL <> l:107 var
+R8289:8294 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8296:8299 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8301:8302 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8300:8300 NavierStokesACL <> l:107 var
+binder 8295:8295 <> p:112
+binder 8295:8295 <> p:113
+binder 8295:8295 <> p:114
+R8303:8303 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8307:8311 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R8304:8304 NavierStokesACL <> f:108 var
+R8306:8306 NavierStokesACL <> p:112 var
+var 8403:8422 ACL_T3 list_sum_le_size_max
+R8438:8440 mathcomp.ssreflect.seq <> seq abbrev
+R8442:8443 NavierStokesACL <> Z3 def
+binder 8434:8434 <> l:117
+R8453:8456 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8451:8452 NavierStokesACL <> Z3 def
+R8457:8457 NavierStokesACL <> ACL_T3.R var
+binder 8447:8447 <> f:118
+R8465:8465 NavierStokesACL <> ACL_T3.R var
+binder 8461:8461 <> M:119
+R8471:8471 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8504:8510 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+binder 8479:8479 <> p:120
+R8489:8492 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R8483:8487 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R8482:8482 NavierStokesACL <> p:120 var
+R8488:8488 NavierStokesACL <> l:117 var
+R8499:8502 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R8493:8494 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R8498:8498 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R8495:8495 NavierStokesACL <> f:118 var
+R8497:8497 NavierStokesACL <> p:120 var
+R8503:8503 NavierStokesACL <> M:119 var
+R8531:8534 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R8511:8516 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8518:8521 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8523:8524 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R8522:8522 NavierStokesACL <> l:117 var
+binder 8517:8517 <> p:121
+binder 8517:8517 <> p:122
+binder 8517:8517 <> p:123
+R8525:8526 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R8530:8530 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R8527:8527 NavierStokesACL <> f:118 var
+R8529:8529 NavierStokesACL <> p:121 var
+R8543:8545 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R8535:8540 NavierStokesACL <> size_R def
+R8542:8542 NavierStokesACL <> l:117 var
+R8546:8546 NavierStokesACL <> M:119 var
+prf 9046:9052 <> Z2R_sub
+R9070:9071 NavierStokesACL <> Z3 def
+binder 9064:9064 <> k:126
+binder 9066:9066 <> p:127
+R9079:9081 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+binder 9075:9075 <> i:128
+R9111:9113 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9089:9091 NavierStokesACL <> Z2R def
+R9094:9097 NavierStokesACL <> subZ def
+R9101:9101 NavierStokesACL <> p:127 var
+R9099:9099 NavierStokesACL <> k:126 var
+R9105:9108 mathcomp.ssreflect.fintype <> ord0 def
+R9110:9110 NavierStokesACL <> i:128 var
+R9128:9130 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R9115:9117 NavierStokesACL <> Z2R def
+R9119:9119 NavierStokesACL <> k:126 var
+R9122:9125 mathcomp.ssreflect.fintype <> ord0 def
+R9127:9127 NavierStokesACL <> i:128 var
+R9132:9134 NavierStokesACL <> Z2R def
+R9136:9136 NavierStokesACL <> p:127 var
+R9139:9142 mathcomp.ssreflect.fintype <> ord0 def
+R9144:9144 NavierStokesACL <> i:128 var
+R9177:9179 NavierStokesACL <> Z2R def
+R9182:9185 NavierStokesACL <> subZ def
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9177:9179 NavierStokesACL <> Z2R def
+R9177:9179 NavierStokesACL <> Z2R def
+R9182:9185 NavierStokesACL <> subZ def
+R9182:9185 NavierStokesACL <> subZ def
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9188:9190 mathcomp.algebra.matrix <> mxE thm
+R9204:9210 mathcomp.algebra.ssralg GRing.Theory rmorphB def
+R9204:9210 mathcomp.algebra.ssralg GRing.Theory rmorphB def
+R9204:9210 mathcomp.algebra.ssralg GRing.Theory rmorphB def
+prf 9225:9238 <> dot_linear_sub
+R9254:9255 NavierStokesACL <> R3 def
+binder 9250:9250 <> v:129
+R9265:9266 NavierStokesACL <> Z3 def
+binder 9259:9259 <> k:130
+binder 9261:9261 <> p:131
+R9294:9296 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9272:9274 NavierStokesACL <> dot def
+R9279:9281 NavierStokesACL <> Z2R def
+R9284:9287 NavierStokesACL <> subZ def
+R9291:9291 NavierStokesACL <> p:131 var
+R9289:9289 NavierStokesACL <> k:130 var
+R9276:9276 NavierStokesACL <> v:129 var
+R9310:9312 mathcomp.algebra.ssralg <> ::ring_scope:x_'-'_x not
+R9297:9299 NavierStokesACL <> dot def
+R9304:9306 NavierStokesACL <> Z2R def
+R9308:9308 NavierStokesACL <> k:130 var
+R9301:9301 NavierStokesACL <> v:129 var
+R9313:9315 NavierStokesACL <> dot def
+R9320:9322 NavierStokesACL <> Z2R def
+R9324:9324 NavierStokesACL <> p:131 var
+R9317:9317 NavierStokesACL <> v:129 var
+R9358:9360 NavierStokesACL <> dot def
+R9363:9367 mathcomp.algebra.ssralg GRing.Theory sumrB def
+R9358:9360 NavierStokesACL <> dot def
+R9358:9360 NavierStokesACL <> dot def
+R9363:9367 mathcomp.algebra.ssralg GRing.Theory sumrB def
+R9363:9367 mathcomp.algebra.ssralg GRing.Theory sumrB def
+R9380:9386 mathcomp.ssreflect.bigop <> eq_bigr thm
+R9404:9410 NavierStokesACL <> Z2R_sub thm
+R9412:9417 mathcomp.algebra.ssralg GRing.Theory mulrBr def
+R9380:9386 mathcomp.ssreflect.bigop <> eq_bigr thm
+R9404:9410 NavierStokesACL <> Z2R_sub thm
+R9404:9410 NavierStokesACL <> Z2R_sub thm
+R9412:9417 mathcomp.algebra.ssralg GRing.Theory mulrBr def
+R9412:9417 mathcomp.algebra.ssralg GRing.Theory mulrBr def
+prf 9434:9441 <> factor_A
+R9459:9460 NavierStokesACL <> Z3 def
+binder 9453:9453 <> k:132
+binder 9455:9455 <> p:133
+R9496:9498 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9466:9468 NavierStokesACL <> dot def
+R9481:9483 NavierStokesACL <> Z2R def
+R9486:9489 NavierStokesACL <> subZ def
+R9493:9493 NavierStokesACL <> p:133 var
+R9491:9491 NavierStokesACL <> k:132 var
+R9471:9475 NavierStokesACL <> ACL_T3.u_hat var
+R9477:9477 NavierStokesACL <> p:133 var
+R9499:9501 NavierStokesACL <> dot def
+R9514:9516 NavierStokesACL <> Z2R def
+R9518:9518 NavierStokesACL <> k:132 var
+R9504:9508 NavierStokesACL <> ACL_T3.u_hat var
+R9510:9510 NavierStokesACL <> p:133 var
+R9549:9562 NavierStokesACL <> dot_linear_sub thm
+R9564:9571 NavierStokesACL <> ACL_T3.div_free var
+R9573:9577 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R9549:9562 NavierStokesACL <> dot_linear_sub thm
+R9549:9562 NavierStokesACL <> dot_linear_sub thm
+R9564:9571 NavierStokesACL <> ACL_T3.div_free var
+R9564:9571 NavierStokesACL <> ACL_T3.div_free var
+R9573:9577 mathcomp.algebra.ssralg GRing.Theory subr0 def
+R9573:9577 mathcomp.algebra.ssralg GRing.Theory subr0 def
+prf 9595:9605 <> coupling_eq
+R9622:9623 NavierStokesACL <> Z3 def
+binder 9616:9616 <> k:134
+binder 9618:9618 <> p:135
+R9640:9642 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9628:9635 NavierStokesACL <> coupling def
+R9639:9639 NavierStokesACL <> p:135 var
+R9637:9637 NavierStokesACL <> k:134 var
+R9664:9666 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R9643:9645 NavierStokesACL <> dot def
+R9658:9660 NavierStokesACL <> Z2R def
+R9662:9662 NavierStokesACL <> k:134 var
+R9648:9652 NavierStokesACL <> ACL_T3.u_hat var
+R9654:9654 NavierStokesACL <> p:135 var
+R9667:9669 NavierStokesACL <> dot def
+R9691:9695 NavierStokesACL <> ACL_T3.u_hat var
+R9697:9697 NavierStokesACL <> k:134 var
+R9672:9676 NavierStokesACL <> ACL_T3.u_hat var
+R9679:9682 NavierStokesACL <> subZ def
+R9686:9686 NavierStokesACL <> p:135 var
+R9684:9684 NavierStokesACL <> k:134 var
+R9729:9736 NavierStokesACL <> coupling def
+R9738:9745 NavierStokesACL <> factor_A thm
+R9729:9736 NavierStokesACL <> coupling def
+R9729:9736 NavierStokesACL <> coupling def
+R9738:9745 NavierStokesACL <> factor_A thm
+R9738:9745 NavierStokesACL <> factor_A thm
+prf 9824:9830 <> nsq_sum
+R9846:9847 NavierStokesACL <> R3 def
+binder 9842:9842 <> v:136
+R9858:9860 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R9853:9855 NavierStokesACL <> nsq def
+R9857:9857 NavierStokesACL <> v:136 var
+R9861:9866 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R9868:9870 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+R9872:9873 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<'_x_')'_x not
+binder 9867:9867 <> i:137
+binder 9867:9867 <> i:138
+binder 9867:9867 <> i:139
+R9874:9874 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R9883:9887 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R9875:9875 NavierStokesACL <> v:136 var
+R9877:9880 mathcomp.ssreflect.fintype <> ord0 def
+R9882:9882 NavierStokesACL <> i:137 var
+R9917:9919 NavierStokesACL <> nsq def
+R9922:9924 NavierStokesACL <> dot def
+R9917:9919 NavierStokesACL <> nsq def
+R9917:9919 NavierStokesACL <> nsq def
+R9922:9924 NavierStokesACL <> dot def
+R9922:9924 NavierStokesACL <> dot def
+R9937:9943 mathcomp.ssreflect.bigop <> eq_bigr thm
+R9962:9966 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R9937:9943 mathcomp.ssreflect.bigop <> eq_bigr thm
+R9962:9966 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R9962:9966 mathcomp.algebra.ssralg GRing.Theory expr2 def
+prf 9981:9989 <> dot_sq_le
+R10007:10008 NavierStokesACL <> R3 def
+binder 10001:10001 <> u:140
+binder 10003:10003 <> v:141
+R10028:10031 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R10014:10014 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R10022:10026 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R10015:10017 NavierStokesACL <> dot def
+R10021:10021 NavierStokesACL <> v:141 var
+R10019:10019 NavierStokesACL <> u:140 var
+R10037:10039 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R10032:10034 NavierStokesACL <> nsq def
+R10036:10036 NavierStokesACL <> u:140 var
+R10040:10042 NavierStokesACL <> nsq def
+R10044:10044 NavierStokesACL <> v:141 var
+R10075:10077 NavierStokesACL <> dot def
+R10080:10086 NavierStokesACL <> nsq_sum thm
+R10075:10077 NavierStokesACL <> dot def
+R10075:10077 NavierStokesACL <> dot def
+R10080:10086 NavierStokesACL <> nsq_sum thm
+R10080:10086 NavierStokesACL <> nsq_sum thm
+R10080:10086 NavierStokesACL <> nsq_sum thm
+R10080:10086 NavierStokesACL <> nsq_sum thm
+R10096:10101 NavierStokesACL <> CS_sum prfax
+R10096:10101 NavierStokesACL <> CS_sum prfax
+prf 10176:10187 <> VSj_triangle
+R10202:10204 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R10205:10207 NavierStokesACL <> ACL_T3.Nsh var
+binder 10198:10198 <> j:142
+R10220:10223 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R10212:10213 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10219:10219 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10214:10216 NavierStokesACL <> VSj def
+R10218:10218 NavierStokesACL <> j:142 var
+R10224:10229 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10231:10234 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10247:10252 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10235:10244 NavierStokesACL <> ACL_T3.shell_list var
+R10246:10246 NavierStokesACL <> j:142 var
+binder 10230:10230 <> k:143
+binder 10230:10230 <> k:144
+binder 10230:10230 <> k:145
+R10253:10254 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10292:10292 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10255:10260 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10262:10265 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10278:10279 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10266:10273 NavierStokesACL <> ACL_T3.res_list var
+R10277:10277 NavierStokesACL <> j:142 var
+R10275:10275 NavierStokesACL <> k:143 var
+binder 10261:10261 <> p:146
+binder 10261:10261 <> p:147
+binder 10261:10261 <> p:148
+R10280:10287 NavierStokesACL <> coupling def
+R10291:10291 NavierStokesACL <> p:146 var
+R10289:10289 NavierStokesACL <> k:143 var
+R10321:10323 NavierStokesACL <> VSj def
+R10321:10323 NavierStokesACL <> VSj def
+R10321:10323 NavierStokesACL <> VSj def
+R10333:10344 mathcomp.algebra.ssrnum Num.Theory ler_norm_sum thm
+R10333:10344 mathcomp.algebra.ssrnum Num.Theory ler_norm_sum thm
+prf 10359:10371 <> VSj_triangle2
+R10386:10388 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R10389:10391 NavierStokesACL <> ACL_T3.Nsh var
+binder 10382:10382 <> j:149
+R10404:10407 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R10396:10397 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10403:10403 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10398:10400 NavierStokesACL <> VSj def
+R10402:10402 NavierStokesACL <> j:149 var
+R10408:10413 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10415:10418 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10431:10436 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10419:10428 NavierStokesACL <> ACL_T3.shell_list var
+R10430:10430 NavierStokesACL <> j:149 var
+binder 10414:10414 <> k:150
+binder 10414:10414 <> k:151
+binder 10414:10414 <> k:152
+R10437:10442 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10444:10447 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10460:10461 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10448:10455 NavierStokesACL <> ACL_T3.res_list var
+R10459:10459 NavierStokesACL <> j:149 var
+R10457:10457 NavierStokesACL <> k:150 var
+binder 10443:10443 <> p:153
+binder 10443:10443 <> p:154
+binder 10443:10443 <> p:155
+R10462:10463 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10476:10476 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R10464:10471 NavierStokesACL <> coupling def
+R10475:10475 NavierStokesACL <> p:153 var
+R10473:10473 NavierStokesACL <> k:150 var
+R10503:10510 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R10513:10524 NavierStokesACL <> VSj_triangle thm
+R10513:10524 NavierStokesACL <> VSj_triangle thm
+R10503:10510 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R10539:10545 mathcomp.algebra.ssrnum Num.Theory ler_sum thm
+R10539:10545 mathcomp.algebra.ssrnum Num.Theory ler_sum thm
+R10562:10573 mathcomp.algebra.ssrnum Num.Theory ler_norm_sum thm
+R10562:10573 mathcomp.algebra.ssrnum Num.Theory ler_norm_sum thm
+def 10662:10671 <> trans_list
+R10678:10679 NavierStokesACL <> Z3 def
+binder 10674:10674 <> k:156
+R10687:10689 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R10690:10692 NavierStokesACL <> ACL_T3.Nsh var
+binder 10683:10683 <> j:157
+R10697:10699 mathcomp.ssreflect.seq <> seq abbrev
+R10701:10702 NavierStokesACL <> Z3 def
+R10709:10713 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+R10715:10718 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+R10731:10733 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+R10751:10751 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+binder 10714:10714 <> p:158
+R10734:10746 NavierStokesACL <> is_transverse def
+R10750:10750 NavierStokesACL <> p:158 var
+R10748:10748 NavierStokesACL <> k:156 var
+R10719:10726 NavierStokesACL <> ACL_T3.res_list var
+R10730:10730 NavierStokesACL <> j:157 var
+R10728:10728 NavierStokesACL <> k:156 var
+def 10766:10774 <> coll_list
+R10781:10782 NavierStokesACL <> Z3 def
+binder 10777:10777 <> k:159
+R10790:10792 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R10793:10795 NavierStokesACL <> ACL_T3.Nsh var
+binder 10786:10786 <> j:160
+R10800:10802 mathcomp.ssreflect.seq <> seq abbrev
+R10804:10805 NavierStokesACL <> Z3 def
+R10812:10816 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+R10818:10821 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+R10834:10836 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+R10853:10853 mathcomp.ssreflect.seq <> ::seq_scope:'['_'seq'_x_'<-'_x_'|'_x_']' not
+binder 10817:10817 <> p:161
+R10837:10848 NavierStokesACL <> is_collinear def
+R10852:10852 NavierStokesACL <> p:161 var
+R10850:10850 NavierStokesACL <> k:159 var
+R10822:10829 NavierStokesACL <> ACL_T3.res_list var
+R10833:10833 NavierStokesACL <> j:160 var
+R10831:10831 NavierStokesACL <> k:159 var
+prf 10863:10871 <> res_split
+R10887:10888 NavierStokesACL <> Z3 def
+binder 10883:10883 <> k:162
+R10896:10898 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R10899:10901 NavierStokesACL <> ACL_T3.Nsh var
+binder 10892:10892 <> j:163
+R10911:10914 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R10909:10910 NavierStokesACL <> Z3 def
+R10915:10915 NavierStokesACL <> ACL_T3.R var
+binder 10905:10905 <> f:164
+R10949:10953 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R10921:10926 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10928:10931 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10944:10945 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10932:10939 NavierStokesACL <> ACL_T3.res_list var
+R10943:10943 NavierStokesACL <> j:163 var
+R10941:10941 NavierStokesACL <> k:162 var
+binder 10927:10927 <> p:165
+binder 10927:10927 <> p:166
+binder 10927:10927 <> p:167
+R10946:10946 NavierStokesACL <> f:164 var
+R10948:10948 NavierStokesACL <> p:165 var
+R10984:10986 mathcomp.algebra.ssralg <> ::ring_scope:x_'+'_x not
+R10954:10959 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10961:10964 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10979:10980 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10965:10974 NavierStokesACL <> trans_list def
+R10978:10978 NavierStokesACL <> j:163 var
+R10976:10976 NavierStokesACL <> k:162 var
+binder 10960:10960 <> p:168
+binder 10960:10960 <> p:169
+binder 10960:10960 <> p:170
+R10981:10981 NavierStokesACL <> f:164 var
+R10983:10983 NavierStokesACL <> p:168 var
+R10987:10992 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10994:10997 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R11011:11012 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R10998:11006 NavierStokesACL <> coll_list def
+R11010:11010 NavierStokesACL <> j:163 var
+R11008:11008 NavierStokesACL <> k:162 var
+binder 10993:10993 <> p:171
+binder 10993:10993 <> p:172
+binder 10993:10993 <> p:173
+R11013:11013 NavierStokesACL <> f:164 var
+R11015:11015 NavierStokesACL <> p:171 var
+R11048:11057 NavierStokesACL <> trans_list def
+R11060:11068 NavierStokesACL <> coll_list def
+R11071:11083 NavierStokesACL <> is_transverse def
+R11048:11057 NavierStokesACL <> trans_list def
+R11048:11057 NavierStokesACL <> trans_list def
+R11060:11068 NavierStokesACL <> coll_list def
+R11060:11068 NavierStokesACL <> coll_list def
+R11071:11083 NavierStokesACL <> is_transverse def
+R11071:11083 NavierStokesACL <> is_transverse def
+R11093:11100 NavierStokesACL <> ACL_T3.res_list var
+R11093:11100 NavierStokesACL <> ACL_T3.res_list var
+R11093:11100 NavierStokesACL <> ACL_T3.res_list var
+R11093:11100 NavierStokesACL <> ACL_T3.res_list var
+R11093:11100 NavierStokesACL <> ACL_T3.res_list var
+R11137:11143 mathcomp.ssreflect.bigop <> big_nil thm
+R11145:11149 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R11137:11143 mathcomp.ssreflect.bigop <> big_nil thm
+R11137:11143 mathcomp.ssreflect.bigop <> big_nil thm
+R11137:11143 mathcomp.ssreflect.bigop <> big_nil thm
+R11145:11149 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R11145:11149 mathcomp.algebra.ssralg GRing.Theory addr0 def
+R11160:11167 mathcomp.ssreflect.bigop <> big_cons thm
+R11160:11167 mathcomp.ssreflect.bigop <> big_cons thm
+R11160:11167 mathcomp.ssreflect.bigop <> big_cons thm
+R11183:11194 NavierStokesACL <> is_collinear def
+R11183:11194 NavierStokesACL <> is_collinear def
+R11183:11194 NavierStokesACL <> is_collinear def
+R11221:11228 mathcomp.ssreflect.bigop <> big_cons thm
+R11221:11228 mathcomp.ssreflect.bigop <> big_cons thm
+R11221:11228 mathcomp.ssreflect.bigop <> big_cons thm
+R11244:11249 mathcomp.algebra.ssralg GRing.Theory addrCA def
+R11244:11249 mathcomp.algebra.ssralg GRing.Theory addrCA def
+R11244:11249 mathcomp.algebra.ssralg GRing.Theory addrCA def
+R11269:11276 mathcomp.ssreflect.bigop <> big_cons thm
+R11269:11276 mathcomp.ssreflect.bigop <> big_cons thm
+R11269:11276 mathcomp.ssreflect.bigop <> big_cons thm
+R11290:11294 mathcomp.algebra.ssralg GRing.Theory addrA def
+R11290:11294 mathcomp.algebra.ssralg GRing.Theory addrA def
+R11290:11294 mathcomp.algebra.ssralg GRing.Theory addrA def
+prf 11350:11359 <> nsq_nonneg
+R11375:11376 NavierStokesACL <> R3 def
+binder 11371:11371 <> v:174
+R11381:11384 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R11385:11387 NavierStokesACL <> nsq def
+R11389:11389 NavierStokesACL <> v:174 var
+R11417:11423 NavierStokesACL <> nsq_sum thm
+R11433:11440 mathcomp.algebra.ssrnum Num.Theory sumr_ge0 thm
+R11417:11423 NavierStokesACL <> nsq_sum thm
+R11417:11423 NavierStokesACL <> nsq_sum thm
+R11433:11440 mathcomp.algebra.ssrnum Num.Theory sumr_ge0 thm
+R11457:11463 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R11457:11463 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+prf 11686:11692 <> nsq_Z2R
+R11707:11708 NavierStokesACL <> Z3 def
+binder 11703:11703 <> k:175
+R11722:11724 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11711:11713 NavierStokesACL <> nsq def
+R11716:11718 NavierStokesACL <> Z2R def
+R11720:11720 NavierStokesACL <> k:175 var
+R11725:11730 NavierStokesACL <> norm2R def
+R11732:11732 NavierStokesACL <> k:175 var
+R11761:11763 NavierStokesACL <> nsq def
+R11766:11768 NavierStokesACL <> dot def
+R11771:11776 NavierStokesACL <> norm2R def
+R11779:11784 NavierStokesACL <> norm2Z def
+R11787:11789 NavierStokesACL <> Z2R def
+R11792:11793 NavierStokesACL <> o0 def
+R11796:11797 NavierStokesACL <> o1 def
+R11800:11801 NavierStokesACL <> o2 def
+R11761:11763 NavierStokesACL <> nsq def
+R11761:11763 NavierStokesACL <> nsq def
+R11766:11768 NavierStokesACL <> dot def
+R11766:11768 NavierStokesACL <> dot def
+R11771:11776 NavierStokesACL <> norm2R def
+R11771:11776 NavierStokesACL <> norm2R def
+R11779:11784 NavierStokesACL <> norm2Z def
+R11779:11784 NavierStokesACL <> norm2Z def
+R11787:11789 NavierStokesACL <> Z2R def
+R11787:11789 NavierStokesACL <> Z2R def
+R11792:11793 NavierStokesACL <> o0 def
+R11792:11793 NavierStokesACL <> o0 def
+R11796:11797 NavierStokesACL <> o1 def
+R11796:11797 NavierStokesACL <> o1 def
+R11800:11801 NavierStokesACL <> o2 def
+R11800:11801 NavierStokesACL <> o2 def
+R11813:11824 mathcomp.ssreflect.bigop <> big_ord_recr thm
+R11826:11833 mathcomp.ssreflect.bigop <> big_ord0 thm
+R11838:11842 mathcomp.algebra.ssralg GRing.Theory add0r def
+R11845:11847 mathcomp.algebra.matrix <> mxE thm
+R11813:11824 mathcomp.ssreflect.bigop <> big_ord_recr thm
+R11813:11824 mathcomp.ssreflect.bigop <> big_ord_recr thm
+R11813:11824 mathcomp.ssreflect.bigop <> big_ord_recr thm
+R11813:11824 mathcomp.ssreflect.bigop <> big_ord_recr thm
+R11813:11824 mathcomp.ssreflect.bigop <> big_ord_recr thm
+R11826:11833 mathcomp.ssreflect.bigop <> big_ord0 thm
+R11826:11833 mathcomp.ssreflect.bigop <> big_ord0 thm
+R11838:11842 mathcomp.algebra.ssralg GRing.Theory add0r def
+R11838:11842 mathcomp.algebra.ssralg GRing.Theory add0r def
+R11845:11847 mathcomp.algebra.matrix <> mxE thm
+R11845:11847 mathcomp.algebra.matrix <> mxE thm
+R11845:11847 mathcomp.algebra.matrix <> mxE thm
+R11845:11847 mathcomp.algebra.matrix <> mxE thm
+R11845:11847 mathcomp.algebra.matrix <> mxE thm
+R11863:11869 mathcomp.algebra.ssralg GRing.Theory rmorphM def
+R11873:11879 mathcomp.algebra.ssralg GRing.Theory rmorphD def
+R11883:11887 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R11863:11869 mathcomp.algebra.ssralg GRing.Theory rmorphM def
+R11863:11869 mathcomp.algebra.ssralg GRing.Theory rmorphM def
+R11863:11869 mathcomp.algebra.ssralg GRing.Theory rmorphM def
+R11863:11869 mathcomp.algebra.ssralg GRing.Theory rmorphM def
+R11863:11869 mathcomp.algebra.ssralg GRing.Theory rmorphM def
+R11873:11879 mathcomp.algebra.ssralg GRing.Theory rmorphD def
+R11873:11879 mathcomp.algebra.ssralg GRing.Theory rmorphD def
+R11873:11879 mathcomp.algebra.ssralg GRing.Theory rmorphD def
+R11873:11879 mathcomp.algebra.ssralg GRing.Theory rmorphD def
+R11883:11887 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R11883:11887 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R11883:11887 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R11883:11887 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R11883:11887 mathcomp.algebra.ssralg GRing.Theory expr2 def
+R11897:11902 Coq.ssr.ssrfun <> congr1 def
+R11897:11902 Coq.ssr.ssrfun <> congr1 def
+R11998:12004 mathcomp.ssreflect.eqtype <> val_inj thm
+R11971:11974 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11986:11986 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R11915:11923 mathcomp.ssreflect.fintype <> widen_ord def
+R11937:11945 mathcomp.ssreflect.fintype <> widen_ord def
+R11960:11966 mathcomp.ssreflect.fintype <> ord_max def
+R11948:11953 mathcomp.ssreflect.ssrnat <> leqnSn thm
+R11926:11931 mathcomp.ssreflect.ssrnat <> leqnSn thm
+R11982:11984 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R11975:11978 mathcomp.ssreflect.fintype <> ord0 def
+R11998:12004 mathcomp.ssreflect.eqtype <> val_inj thm
+R12075:12081 mathcomp.ssreflect.eqtype <> val_inj thm
+R12050:12053 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12063:12063 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12017:12025 mathcomp.ssreflect.fintype <> widen_ord def
+R12040:12046 mathcomp.ssreflect.fintype <> ord_max def
+R12028:12033 mathcomp.ssreflect.ssrnat <> leqnSn thm
+R12059:12061 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R12054:12055 NavierStokesACL <> o1 def
+R12075:12081 mathcomp.ssreflect.eqtype <> val_inj thm
+R12129:12135 mathcomp.ssreflect.eqtype <> val_inj thm
+R12104:12107 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12117:12117 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12095:12101 mathcomp.ssreflect.fintype <> ord_max def
+R12113:12115 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R12108:12109 NavierStokesACL <> o2 def
+R12129:12135 mathcomp.ssreflect.eqtype <> val_inj thm
+prf 12156:12169 <> coupling_sq_le
+R12186:12187 NavierStokesACL <> Z3 def
+binder 12180:12180 <> k:176
+binder 12182:12182 <> p:177
+R12211:12216 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R12192:12192 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R12205:12209 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R12193:12200 NavierStokesACL <> coupling def
+R12204:12204 NavierStokesACL <> p:177 var
+R12202:12202 NavierStokesACL <> k:176 var
+R12241:12244 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R12283:12283 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R12230:12232 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R12217:12219 NavierStokesACL <> nsq def
+R12222:12226 NavierStokesACL <> ACL_T3.u_hat var
+R12228:12228 NavierStokesACL <> p:177 var
+R12233:12238 NavierStokesACL <> norm2R def
+R12240:12240 NavierStokesACL <> k:176 var
+R12267:12269 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R12245:12247 NavierStokesACL <> nsq def
+R12250:12254 NavierStokesACL <> ACL_T3.u_hat var
+R12257:12260 NavierStokesACL <> subZ def
+R12264:12264 NavierStokesACL <> p:177 var
+R12262:12262 NavierStokesACL <> k:176 var
+R12270:12272 NavierStokesACL <> nsq def
+R12275:12279 NavierStokesACL <> ACL_T3.u_hat var
+R12281:12281 NavierStokesACL <> k:176 var
+R12313:12323 NavierStokesACL <> coupling_eq thm
+R12325:12330 mathcomp.algebra.ssralg GRing.Theory exprMn def
+R12313:12323 NavierStokesACL <> coupling_eq thm
+R12313:12323 NavierStokesACL <> coupling_eq thm
+R12325:12330 mathcomp.algebra.ssralg GRing.Theory exprMn def
+R12325:12330 mathcomp.algebra.ssralg GRing.Theory exprMn def
+R12340:12345 mathcomp.algebra.ssrnum Num.Theory ler_pM thm
+R12340:12345 mathcomp.algebra.ssrnum Num.Theory ler_pM thm
+R12357:12363 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R12357:12363 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R12375:12381 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R12375:12381 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R12398:12404 NavierStokesACL <> nsq_Z2R thm
+R12414:12422 NavierStokesACL <> dot_sq_le thm
+R12398:12404 NavierStokesACL <> nsq_Z2R thm
+R12398:12404 NavierStokesACL <> nsq_Z2R thm
+R12414:12422 NavierStokesACL <> dot_sq_le thm
+R12434:12442 NavierStokesACL <> dot_sq_le thm
+R12434:12442 NavierStokesACL <> dot_sq_le thm
+var 12811:12826 ACL_T3 shell_energy_def
+R12841:12843 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R12844:12846 NavierStokesACL <> ACL_T3.Nsh var
+binder 12837:12837 <> j:178
+R12889:12891 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R12851:12856 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R12858:12861 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R12874:12875 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R12862:12871 NavierStokesACL <> ACL_T3.shell_list var
+R12873:12873 NavierStokesACL <> j:178 var
+binder 12857:12857 <> k:179
+binder 12857:12857 <> k:180
+binder 12857:12857 <> k:181
+R12876:12878 NavierStokesACL <> nsq def
+R12881:12885 NavierStokesACL <> ACL_T3.u_hat var
+R12887:12887 NavierStokesACL <> k:179 var
+R12892:12893 NavierStokesACL <> ACL_T3.Ej var
+R12895:12895 NavierStokesACL <> j:178 var
+var 12957:12972 ACL_T3 shell_wavenumber
+R12987:12989 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R12990:12992 NavierStokesACL <> ACL_T3.Nsh var
+binder 12983:12983 <> j:184
+binder 13004:13004 <> k:185
+R13025:13028 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13008:13012 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13007:13007 NavierStokesACL <> k:185 var
+R13013:13022 NavierStokesACL <> ACL_T3.shell_list var
+R13024:13024 NavierStokesACL <> j:184 var
+R13037:13040 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R13029:13034 NavierStokesACL <> norm2R def
+R13036:13036 NavierStokesACL <> k:185 var
+R13041:13041 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R13046:13050 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R13042:13043 NavierStokesACL <> ACL_T3.kj var
+R13045:13045 NavierStokesACL <> j:184 var
+prf 13125:13141 <> coupling_sq_shell
+R13157:13159 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R13160:13162 NavierStokesACL <> ACL_T3.Nsh var
+binder 13153:13153 <> j:188
+R13172:13173 NavierStokesACL <> Z3 def
+binder 13166:13166 <> k:189
+binder 13168:13168 <> p:190
+R13197:13202 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R13180:13184 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R13179:13179 NavierStokesACL <> k:189 var
+R13185:13194 NavierStokesACL <> ACL_T3.shell_list var
+R13196:13196 NavierStokesACL <> j:188 var
+R13222:13227 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R13203:13203 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R13216:13220 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R13204:13211 NavierStokesACL <> coupling def
+R13215:13215 NavierStokesACL <> p:190 var
+R13213:13213 NavierStokesACL <> k:189 var
+R13255:13258 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R13297:13297 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R13241:13243 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R13228:13230 NavierStokesACL <> nsq def
+R13233:13237 NavierStokesACL <> ACL_T3.u_hat var
+R13239:13239 NavierStokesACL <> p:190 var
+R13244:13244 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R13249:13253 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R13245:13246 NavierStokesACL <> ACL_T3.kj var
+R13248:13248 NavierStokesACL <> j:188 var
+R13281:13283 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R13259:13261 NavierStokesACL <> nsq def
+R13264:13268 NavierStokesACL <> ACL_T3.u_hat var
+R13271:13274 NavierStokesACL <> subZ def
+R13278:13278 NavierStokesACL <> p:190 var
+R13276:13276 NavierStokesACL <> k:189 var
+R13284:13286 NavierStokesACL <> nsq def
+R13289:13293 NavierStokesACL <> ACL_T3.u_hat var
+R13295:13295 NavierStokesACL <> k:189 var
+R13331:13338 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R13341:13354 NavierStokesACL <> coupling_sq_le thm
+R13341:13354 NavierStokesACL <> coupling_sq_le thm
+R13331:13338 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R13371:13379 mathcomp.algebra.ssrnum Num.Theory ler_wpM2r thm
+R13371:13379 mathcomp.algebra.ssrnum Num.Theory ler_wpM2r thm
+R13394:13401 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R13412:13421 NavierStokesACL <> nsq_nonneg thm
+R13432:13441 NavierStokesACL <> nsq_nonneg thm
+R13394:13401 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R13412:13421 NavierStokesACL <> nsq_nonneg thm
+R13432:13441 NavierStokesACL <> nsq_nonneg thm
+R13452:13460 mathcomp.algebra.ssrnum Num.Theory ler_wpM2l thm
+R13452:13460 mathcomp.algebra.ssrnum Num.Theory ler_wpM2l thm
+R13472:13481 NavierStokesACL <> nsq_nonneg thm
+R13472:13481 NavierStokesACL <> nsq_nonneg thm
+R13491:13506 NavierStokesACL <> ACL_T3.shell_wavenumber var
+R13491:13506 NavierStokesACL <> ACL_T3.shell_wavenumber var
+var 14093:14102 ACL_T3 coll_count
+R14118:14119 NavierStokesACL <> Z3 def
+binder 14114:14114 <> k:191
+R14127:14129 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R14130:14132 NavierStokesACL <> ACL_T3.Nsh var
+binder 14123:14123 <> j:192
+R14160:14164 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R14169:14169 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R14138:14143 NavierStokesACL <> size_R def
+R14146:14154 NavierStokesACL <> coll_list def
+R14158:14158 NavierStokesACL <> j:192 var
+R14156:14156 NavierStokesACL <> k:191 var
+R14165:14166 NavierStokesACL <> ACL_T3.kj var
+R14168:14168 NavierStokesACL <> j:192 var
+var 14184:14194 ACL_T3 trans_count
+R14210:14211 NavierStokesACL <> Z3 def
+binder 14206:14206 <> k:195
+R14219:14221 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R14222:14224 NavierStokesACL <> ACL_T3.Nsh var
+binder 14215:14215 <> j:196
+R14253:14256 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R14230:14235 NavierStokesACL <> size_R def
+R14238:14247 NavierStokesACL <> trans_list def
+R14251:14251 NavierStokesACL <> j:196 var
+R14249:14249 NavierStokesACL <> k:195 var
+R14257:14257 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R14262:14266 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R14258:14259 NavierStokesACL <> ACL_T3.kj var
+R14261:14261 NavierStokesACL <> j:196 var
+var 14282:14295 ACL_T3 mode_energy_le
+R14311:14313 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R14314:14316 NavierStokesACL <> ACL_T3.Nsh var
+binder 14307:14307 <> j:199
+R14324:14325 NavierStokesACL <> Z3 def
+binder 14320:14320 <> k:200
+R14349:14352 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14332:14336 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R14331:14331 NavierStokesACL <> k:200 var
+R14337:14346 NavierStokesACL <> ACL_T3.shell_list var
+R14348:14348 NavierStokesACL <> j:199 var
+R14366:14369 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R14353:14355 NavierStokesACL <> nsq def
+R14358:14362 NavierStokesACL <> ACL_T3.u_hat var
+R14364:14364 NavierStokesACL <> k:200 var
+R14370:14371 NavierStokesACL <> ACL_T3.Ej var
+R14373:14373 NavierStokesACL <> j:199 var
+var 14388:14403 ACL_T3 shell_size_bound
+R14418:14420 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R14421:14423 NavierStokesACL <> ACL_T3.Nsh var
+binder 14414:14414 <> j:203
+R14449:14452 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R14428:14433 NavierStokesACL <> size_R def
+R14436:14445 NavierStokesACL <> ACL_T3.shell_list var
+R14447:14447 NavierStokesACL <> j:203 var
+R14453:14453 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R14458:14462 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R14454:14455 NavierStokesACL <> ACL_T3.kj var
+R14457:14457 NavierStokesACL <> j:203 var
+prf 14898:14909 <> trans_sum_sq
+R14925:14927 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R14928:14930 NavierStokesACL <> ACL_T3.Nsh var
+binder 14921:14921 <> j:206
+R14938:14939 NavierStokesACL <> Z3 def
+binder 14934:14934 <> k:207
+R14963:14968 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R14946:14950 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R14945:14945 NavierStokesACL <> k:207 var
+R14951:14960 NavierStokesACL <> ACL_T3.shell_list var
+R14962:14962 NavierStokesACL <> j:206 var
+R15018:15023 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R14969:14969 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15012:15016 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R14970:14975 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R14977:14980 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R14995:14996 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R14981:14990 NavierStokesACL <> trans_list def
+R14994:14994 NavierStokesACL <> j:206 var
+R14992:14992 NavierStokesACL <> k:207 var
+binder 14976:14976 <> p:208
+binder 14976:14976 <> p:209
+binder 14976:14976 <> p:210
+R14997:14998 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R15011:15011 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R14999:15006 NavierStokesACL <> coupling def
+R15010:15010 NavierStokesACL <> p:208 var
+R15008:15008 NavierStokesACL <> k:207 var
+R15035:15037 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15024:15024 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15029:15033 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15025:15026 NavierStokesACL <> ACL_T3.kj var
+R15028:15028 NavierStokesACL <> j:206 var
+R15038:15043 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15045:15048 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15063:15064 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15049:15058 NavierStokesACL <> trans_list def
+R15062:15062 NavierStokesACL <> j:206 var
+R15060:15060 NavierStokesACL <> k:207 var
+binder 15044:15044 <> p:211
+binder 15044:15044 <> p:212
+binder 15044:15044 <> p:213
+R15065:15065 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15078:15082 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15066:15073 NavierStokesACL <> coupling def
+R15077:15077 NavierStokesACL <> p:211 var
+R15075:15075 NavierStokesACL <> k:207 var
+R15115:15122 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R15125:15131 NavierStokesACL <> CS_list prfax
+R15125:15131 NavierStokesACL <> CS_list prfax
+R15115:15122 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R15148:15156 mathcomp.algebra.ssrnum Num.Theory ler_wpM2r thm
+R15148:15156 mathcomp.algebra.ssrnum Num.Theory ler_wpM2r thm
+R15171:15178 mathcomp.algebra.ssrnum Num.Theory sumr_ge0 thm
+R15195:15201 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R15171:15178 mathcomp.algebra.ssrnum Num.Theory sumr_ge0 thm
+R15195:15201 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R15211:15221 NavierStokesACL <> ACL_T3.trans_count var
+R15211:15221 NavierStokesACL <> ACL_T3.trans_count var
+prf 15236:15253 <> trans_coupling_sum
+R15269:15271 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R15272:15274 NavierStokesACL <> ACL_T3.Nsh var
+binder 15265:15265 <> j:214
+R15282:15283 NavierStokesACL <> Z3 def
+binder 15278:15278 <> k:215
+R15307:15312 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R15290:15294 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R15289:15289 NavierStokesACL <> k:215 var
+R15295:15304 NavierStokesACL <> ACL_T3.shell_list var
+R15306:15306 NavierStokesACL <> j:214 var
+R15359:15364 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R15313:15318 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15320:15323 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15338:15339 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15324:15333 NavierStokesACL <> trans_list def
+R15337:15337 NavierStokesACL <> j:214 var
+R15335:15335 NavierStokesACL <> k:215 var
+binder 15319:15319 <> p:216
+binder 15319:15319 <> p:217
+binder 15319:15319 <> p:218
+R15340:15340 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15353:15357 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15341:15348 NavierStokesACL <> coupling def
+R15352:15352 NavierStokesACL <> p:216 var
+R15350:15350 NavierStokesACL <> k:215 var
+R15376:15378 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15365:15365 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15370:15374 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15366:15367 NavierStokesACL <> ACL_T3.kj var
+R15369:15369 NavierStokesACL <> j:214 var
+R15379:15384 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15386:15389 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15404:15410 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15467:15467 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R15390:15399 NavierStokesACL <> trans_list def
+R15403:15403 NavierStokesACL <> j:214 var
+R15401:15401 NavierStokesACL <> k:215 var
+binder 15385:15385 <> p:219
+binder 15385:15385 <> p:220
+binder 15385:15385 <> p:221
+R15424:15427 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15466:15466 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15411:15413 NavierStokesACL <> nsq def
+R15416:15420 NavierStokesACL <> ACL_T3.u_hat var
+R15422:15422 NavierStokesACL <> p:219 var
+R15450:15452 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R15428:15430 NavierStokesACL <> nsq def
+R15433:15437 NavierStokesACL <> ACL_T3.u_hat var
+R15440:15443 NavierStokesACL <> subZ def
+R15447:15447 NavierStokesACL <> p:219 var
+R15445:15445 NavierStokesACL <> k:215 var
+R15453:15455 NavierStokesACL <> nsq def
+R15458:15462 NavierStokesACL <> ACL_T3.u_hat var
+R15464:15464 NavierStokesACL <> k:215 var
+R15500:15508 mathcomp.algebra.ssralg GRing.Theory mulr_sumr def
+R15500:15508 mathcomp.algebra.ssralg GRing.Theory mulr_sumr def
+R15500:15508 mathcomp.algebra.ssralg GRing.Theory mulr_sumr def
+R15518:15524 mathcomp.algebra.ssrnum Num.Theory ler_sum thm
+R15518:15524 mathcomp.algebra.ssrnum Num.Theory ler_sum thm
+R15545:15550 mathcomp.algebra.ssralg GRing.Theory mulrCA def
+R15557:15560 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15553:15554 NavierStokesACL <> ACL_T3.kj var
+R15565:15569 mathcomp.algebra.ssralg GRing.Theory mulrA def
+R15545:15550 mathcomp.algebra.ssralg GRing.Theory mulrCA def
+R15557:15560 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15553:15554 NavierStokesACL <> ACL_T3.kj var
+R15545:15550 mathcomp.algebra.ssralg GRing.Theory mulrCA def
+R15557:15560 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R15553:15554 NavierStokesACL <> ACL_T3.kj var
+R15565:15569 mathcomp.algebra.ssralg GRing.Theory mulrA def
+R15565:15569 mathcomp.algebra.ssralg GRing.Theory mulrA def
+R15581:15597 NavierStokesACL <> coupling_sq_shell thm
+R15581:15597 NavierStokesACL <> coupling_sq_shell thm
+var 16327:16344 ACL_T3 per_mode_res_bound
+R16360:16362 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R16363:16365 NavierStokesACL <> ACL_T3.Nsh var
+binder 16356:16356 <> j:222
+R16373:16374 NavierStokesACL <> Z3 def
+binder 16369:16369 <> k:223
+R16398:16403 Coq.Init.Logic <> ::type_scope:x_'->'_x not
+R16381:16385 Coq.ssr.ssrbool <> ::bool_scope:x_'\in'_x not
+R16380:16380 NavierStokesACL <> k:223 var
+R16386:16395 NavierStokesACL <> ACL_T3.shell_list var
+R16397:16397 NavierStokesACL <> j:222 var
+R16451:16456 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R16404:16404 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16445:16449 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16405:16410 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16412:16415 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16428:16429 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16416:16423 NavierStokesACL <> ACL_T3.res_list var
+R16427:16427 NavierStokesACL <> j:222 var
+R16425:16425 NavierStokesACL <> k:223 var
+binder 16411:16411 <> p:224
+binder 16411:16411 <> p:225
+binder 16411:16411 <> p:226
+R16430:16431 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R16444:16444 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R16432:16439 NavierStokesACL <> coupling def
+R16443:16443 NavierStokesACL <> p:224 var
+R16441:16441 NavierStokesACL <> k:223 var
+R16497:16499 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R16481:16483 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R16467:16469 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R16462:16465 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16457:16461 NavierStokesACL <> ACL_T3.C_ACL var
+R16470:16470 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16475:16479 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16471:16472 NavierStokesACL <> ACL_T3.kj var
+R16474:16474 NavierStokesACL <> j:222 var
+R16484:16486 NavierStokesACL <> nsq def
+R16489:16493 NavierStokesACL <> ACL_T3.u_hat var
+R16495:16495 NavierStokesACL <> k:223 var
+R16500:16500 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16505:16509 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16501:16502 NavierStokesACL <> ACL_T3.Ej var
+R16504:16504 NavierStokesACL <> j:222 var
+var 16572:16582 ACL_T3 k0_le_kj_sq
+R16597:16599 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R16600:16602 NavierStokesACL <> ACL_T3.Nsh var
+binder 16593:16593 <> j:229
+R16609:16612 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R16607:16608 NavierStokesACL <> ACL_T3.k0 var
+R16613:16613 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16618:16622 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16614:16615 NavierStokesACL <> ACL_T3.kj var
+R16617:16617 NavierStokesACL <> j:229 var
+prf 16702:16719 <> per_shell_combined
+R16734:16736 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R16737:16739 NavierStokesACL <> ACL_T3.Nsh var
+binder 16730:16730 <> j:232
+R16756:16761 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R16744:16744 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16750:16754 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16745:16747 NavierStokesACL <> VSj def
+R16749:16749 NavierStokesACL <> j:232 var
+R16786:16788 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R16772:16774 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R16767:16770 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16762:16766 NavierStokesACL <> ACL_T3.C_ACL var
+R16775:16775 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16780:16784 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16776:16777 NavierStokesACL <> ACL_T3.kj var
+R16779:16779 NavierStokesACL <> j:232 var
+R16789:16789 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16794:16798 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16790:16791 NavierStokesACL <> ACL_T3.Ej var
+R16793:16793 NavierStokesACL <> j:232 var
+R16841:16846 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R16829:16829 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16835:16839 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16830:16832 NavierStokesACL <> VSj def
+R16847:16847 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16917:16921 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16848:16853 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16855:16858 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16871:16876 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16859:16868 NavierStokesACL <> ACL_T3.shell_list var
+binder 16854:16854 <> k:233
+binder 16854:16854 <> k:234
+binder 16854:16854 <> k:235
+R16877:16882 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16884:16887 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16900:16901 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R16888:16895 NavierStokesACL <> ACL_T3.res_list var
+R16897:16897 NavierStokesACL <> k:233 var
+binder 16883:16883 <> p:236
+binder 16883:16883 <> p:237
+binder 16883:16883 <> p:238
+R16902:16903 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R16916:16916 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R16904:16911 NavierStokesACL <> coupling def
+R16915:16915 NavierStokesACL <> p:236 var
+R16913:16913 NavierStokesACL <> k:233 var
+R16937:16949 NavierStokesACL <> VSj_triangle2 thm
+R16978:16980 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R16966:16966 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16972:16976 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16967:16969 NavierStokesACL <> VSj def
+R16989:16992 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R16981:16982 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R16988:16988 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R16983:16985 NavierStokesACL <> VSj def
+R17012:17017 mathcomp.algebra.ssrnum Num.Theory normrX thm
+R17019:17027 mathcomp.algebra.ssrnum Num.Theory ger0_norm thm
+R17030:17036 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R17012:17017 mathcomp.algebra.ssrnum Num.Theory normrX thm
+R17012:17017 mathcomp.algebra.ssrnum Num.Theory normrX thm
+R17019:17027 mathcomp.algebra.ssrnum Num.Theory ger0_norm thm
+R17019:17027 mathcomp.algebra.ssrnum Num.Theory ger0_norm thm
+R17030:17036 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R17030:17036 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R17030:17036 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R17030:17036 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R17030:17036 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R17048:17053 mathcomp.algebra.ssrnum Num.Theory ler_pM thm
+R17067:17075 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17048:17053 mathcomp.algebra.ssrnum Num.Theory ler_pM thm
+R17067:17075 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17067:17075 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17067:17075 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17067:17075 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17174:17179 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R17098:17098 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17168:17172 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17099:17104 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17106:17109 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17122:17127 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17110:17119 NavierStokesACL <> ACL_T3.shell_list var
+binder 17105:17105 <> k:239
+binder 17105:17105 <> k:240
+binder 17105:17105 <> k:241
+R17128:17133 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17135:17138 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17151:17152 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17139:17146 NavierStokesACL <> ACL_T3.res_list var
+R17148:17148 NavierStokesACL <> k:239 var
+binder 17134:17134 <> p:242
+binder 17134:17134 <> p:243
+binder 17134:17134 <> p:244
+R17153:17154 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17167:17167 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17155:17162 NavierStokesACL <> coupling def
+R17166:17166 NavierStokesACL <> p:242 var
+R17164:17164 NavierStokesACL <> k:239 var
+R17201:17207 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17180:17185 NavierStokesACL <> size_R def
+R17188:17197 NavierStokesACL <> ACL_T3.shell_list var
+R17208:17213 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17215:17218 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17231:17238 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17219:17228 NavierStokesACL <> ACL_T3.shell_list var
+binder 17214:17214 <> k:245
+binder 17214:17214 <> k:246
+binder 17214:17214 <> k:247
+R17239:17239 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17280:17284 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17240:17245 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17247:17250 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17263:17264 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17251:17258 NavierStokesACL <> ACL_T3.res_list var
+R17260:17260 NavierStokesACL <> k:245 var
+binder 17246:17246 <> p:248
+binder 17246:17246 <> p:249
+binder 17246:17246 <> p:250
+R17265:17266 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17279:17279 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17267:17274 NavierStokesACL <> coupling def
+R17278:17278 NavierStokesACL <> p:248 var
+R17276:17276 NavierStokesACL <> k:245 var
+R17369:17375 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17300:17305 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17307:17310 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17323:17328 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17311:17320 NavierStokesACL <> ACL_T3.shell_list var
+binder 17306:17306 <> k:251
+binder 17306:17306 <> k:252
+binder 17306:17306 <> k:253
+R17329:17334 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17336:17339 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17352:17353 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17340:17347 NavierStokesACL <> ACL_T3.res_list var
+R17349:17349 NavierStokesACL <> k:251 var
+binder 17335:17335 <> p:254
+binder 17335:17335 <> p:255
+binder 17335:17335 <> p:256
+R17354:17355 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17368:17368 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17356:17363 NavierStokesACL <> coupling def
+R17367:17367 NavierStokesACL <> p:254 var
+R17365:17365 NavierStokesACL <> k:251 var
+R17376:17381 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17383:17386 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17399:17404 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17387:17396 NavierStokesACL <> ACL_T3.shell_list var
+binder 17382:17382 <> k:257
+binder 17382:17382 <> k:258
+binder 17382:17382 <> k:259
+R17405:17406 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17447:17448 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17407:17412 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17414:17417 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17430:17431 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17418:17425 NavierStokesACL <> ACL_T3.res_list var
+R17427:17427 NavierStokesACL <> k:257 var
+binder 17413:17413 <> p:260
+binder 17413:17413 <> p:261
+binder 17413:17413 <> p:262
+R17432:17433 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17446:17446 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17434:17441 NavierStokesACL <> coupling def
+R17445:17445 NavierStokesACL <> p:260 var
+R17443:17443 NavierStokesACL <> k:257 var
+R17462:17468 NavierStokesACL <> CS_list prfax
+R17462:17468 NavierStokesACL <> CS_list prfax
+R17480:17486 mathcomp.ssreflect.bigop <> eq_bigr thm
+R17480:17486 mathcomp.ssreflect.bigop <> eq_bigr thm
+R17506:17514 mathcomp.algebra.ssrnum Num.Theory ger0_norm thm
+R17506:17514 mathcomp.algebra.ssrnum Num.Theory ger0_norm thm
+R17506:17514 mathcomp.algebra.ssrnum Num.Theory ger0_norm thm
+R17529:17536 mathcomp.algebra.ssrnum Num.Theory sumr_ge0 thm
+R17553:17561 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17529:17536 mathcomp.algebra.ssrnum Num.Theory sumr_ge0 thm
+R17553:17561 mathcomp.algebra.ssrnum Num.Theory normr_ge0 thm
+R17650:17655 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R17574:17579 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17581:17584 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17597:17602 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17585:17594 NavierStokesACL <> ACL_T3.shell_list var
+binder 17580:17580 <> k:263
+binder 17580:17580 <> k:264
+binder 17580:17580 <> k:265
+R17603:17603 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17644:17648 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17604:17609 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17611:17614 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17627:17628 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17615:17622 NavierStokesACL <> ACL_T3.res_list var
+R17624:17624 NavierStokesACL <> k:263 var
+binder 17610:17610 <> p:266
+binder 17610:17610 <> p:267
+binder 17610:17610 <> p:268
+R17629:17630 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17643:17643 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:'`|'_x_'|' not
+R17631:17638 NavierStokesACL <> coupling def
+R17642:17642 NavierStokesACL <> p:266 var
+R17640:17640 NavierStokesACL <> k:263 var
+R17656:17661 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17663:17666 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17679:17685 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17740:17740 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17667:17676 NavierStokesACL <> ACL_T3.shell_list var
+binder 17662:17662 <> k:269
+binder 17662:17662 <> k:270
+binder 17662:17662 <> k:271
+R17726:17728 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17710:17712 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17696:17698 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17691:17694 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17686:17690 NavierStokesACL <> ACL_T3.C_ACL var
+R17699:17699 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17704:17708 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17700:17701 NavierStokesACL <> ACL_T3.kj var
+R17713:17715 NavierStokesACL <> nsq def
+R17718:17722 NavierStokesACL <> ACL_T3.u_hat var
+R17724:17724 NavierStokesACL <> k:269 var
+R17729:17729 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17734:17738 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17730:17731 NavierStokesACL <> ACL_T3.Ej var
+R17753:17764 mathcomp.ssreflect.bigop <> big_seq_cond thm
+R17773:17776 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R17779:17790 mathcomp.ssreflect.bigop <> big_seq_cond thm
+R17753:17764 mathcomp.ssreflect.bigop <> big_seq_cond thm
+R17753:17764 mathcomp.ssreflect.bigop <> big_seq_cond thm
+R17779:17790 mathcomp.ssreflect.bigop <> big_seq_cond thm
+R17773:17776 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R17773:17776 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R17777:17777 NavierStokesACL <> X:272 var
+R17779:17790 mathcomp.ssreflect.bigop <> big_seq_cond thm
+R17802:17808 mathcomp.algebra.ssrnum Num.Theory ler_sum thm
+R17802:17808 mathcomp.algebra.ssrnum Num.Theory ler_sum thm
+R17816:17819 Coq.ssr.ssrbool <> andP thm
+R17838:17855 NavierStokesACL <> ACL_T3.per_mode_res_bound var
+R17838:17855 NavierStokesACL <> ACL_T3.per_mode_res_bound var
+R17956:17960 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R17871:17876 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17878:17881 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17894:17900 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17955:17955 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R17882:17891 NavierStokesACL <> ACL_T3.shell_list var
+binder 17877:17877 <> k:273
+binder 17877:17877 <> k:274
+binder 17877:17877 <> k:275
+R17941:17943 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17925:17927 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17911:17913 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17906:17909 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17901:17905 NavierStokesACL <> ACL_T3.C_ACL var
+R17914:17914 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17919:17923 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17915:17916 NavierStokesACL <> ACL_T3.kj var
+R17928:17930 NavierStokesACL <> nsq def
+R17933:17937 NavierStokesACL <> ACL_T3.u_hat var
+R17939:17939 NavierStokesACL <> k:273 var
+R17944:17944 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17949:17953 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17945:17946 NavierStokesACL <> ACL_T3.Ej var
+R17999:18001 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17985:17987 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17971:17973 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R17966:17969 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17961:17965 NavierStokesACL <> ACL_T3.C_ACL var
+R17974:17974 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17979:17983 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17975:17976 NavierStokesACL <> ACL_T3.kj var
+R17988:17988 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17993:17997 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R17989:17990 NavierStokesACL <> ACL_T3.Ej var
+R18002:18003 NavierStokesACL <> ACL_T3.Ej var
+R18105:18111 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18020:18025 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18027:18030 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18043:18049 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18104:18104 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18031:18040 NavierStokesACL <> ACL_T3.shell_list var
+binder 18026:18026 <> k:276
+binder 18026:18026 <> k:277
+binder 18026:18026 <> k:278
+R18090:18092 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18074:18076 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18060:18062 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18055:18058 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18050:18054 NavierStokesACL <> ACL_T3.C_ACL var
+R18063:18063 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18068:18072 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18064:18065 NavierStokesACL <> ACL_T3.kj var
+R18077:18079 NavierStokesACL <> nsq def
+R18082:18086 NavierStokesACL <> ACL_T3.u_hat var
+R18088:18088 NavierStokesACL <> k:276 var
+R18093:18093 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18098:18102 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18094:18095 NavierStokesACL <> ACL_T3.Ej var
+R18150:18158 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18136:18138 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18122:18124 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18117:18120 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18112:18116 NavierStokesACL <> ACL_T3.C_ACL var
+R18125:18125 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18130:18134 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18126:18127 NavierStokesACL <> ACL_T3.kj var
+R18139:18139 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18144:18148 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18140:18141 NavierStokesACL <> ACL_T3.Ej var
+R18159:18164 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18166:18169 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18182:18183 mathcomp.algebra.ssralg <> ::ring_scope:'\sum_'_'('_x_'<-'_x_')'_x not
+R18170:18179 NavierStokesACL <> ACL_T3.shell_list var
+binder 18165:18165 <> k:279
+binder 18165:18165 <> k:280
+binder 18165:18165 <> k:281
+R18184:18186 NavierStokesACL <> nsq def
+R18189:18193 NavierStokesACL <> ACL_T3.u_hat var
+R18195:18195 NavierStokesACL <> k:279 var
+R18211:18219 mathcomp.algebra.ssralg GRing.Theory mulr_sumr def
+R18211:18219 mathcomp.algebra.ssralg GRing.Theory mulr_sumr def
+R18211:18219 mathcomp.algebra.ssralg GRing.Theory mulr_sumr def
+R18233:18239 mathcomp.ssreflect.bigop <> eq_bigr thm
+R18233:18239 mathcomp.ssreflect.bigop <> eq_bigr thm
+R18272:18287 NavierStokesACL <> ACL_T3.shell_energy_def var
+R18272:18287 NavierStokesACL <> ACL_T3.shell_energy_def var
+R18272:18287 NavierStokesACL <> ACL_T3.shell_energy_def var
+R18373:18378 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R18321:18326 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18372:18372 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18300:18305 NavierStokesACL <> size_R def
+R18308:18317 NavierStokesACL <> ACL_T3.shell_list var
+R18365:18367 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18351:18353 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18337:18339 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18332:18335 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18327:18331 NavierStokesACL <> ACL_T3.C_ACL var
+R18340:18340 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18345:18349 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18341:18342 NavierStokesACL <> ACL_T3.kj var
+R18354:18354 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18359:18363 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18355:18356 NavierStokesACL <> ACL_T3.Ej var
+R18368:18369 NavierStokesACL <> ACL_T3.Ej var
+R18390:18393 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18439:18439 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18379:18379 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18384:18388 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18380:18381 NavierStokesACL <> ACL_T3.kj var
+R18432:18434 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18418:18420 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18404:18406 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18399:18402 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18394:18398 NavierStokesACL <> ACL_T3.C_ACL var
+R18407:18407 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18412:18416 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18408:18409 NavierStokesACL <> ACL_T3.kj var
+R18421:18421 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18426:18430 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18422:18423 NavierStokesACL <> ACL_T3.Ej var
+R18435:18436 NavierStokesACL <> ACL_T3.Ej var
+R18451:18459 mathcomp.algebra.ssrnum Num.Theory ler_wpM2r thm
+R18451:18459 mathcomp.algebra.ssrnum Num.Theory ler_wpM2r thm
+R18473:18480 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R18491:18498 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R18509:18516 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R18473:18480 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R18491:18498 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R18509:18516 mathcomp.algebra.ssrnum Num.Theory mulr_ge0 thm
+R18538:18544 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R18538:18544 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R18560:18568 mathcomp.algebra.ssrnum Num.Theory exprn_ge0 thm
+R18571:18573 mathcomp.ssreflect.order Order.POrderTheory ltW thm
+R18576:18578 NavierStokesACL <> ACL_T3.hkj var
+R18571:18573 mathcomp.ssreflect.order Order.POrderTheory ltW thm
+R18576:18578 NavierStokesACL <> ACL_T3.hkj var
+R18560:18568 mathcomp.algebra.ssrnum Num.Theory exprn_ge0 thm
+R18598:18606 mathcomp.algebra.ssrnum Num.Theory exprn_ge0 thm
+R18609:18611 NavierStokesACL <> ACL_T3.hEj var
+R18609:18611 NavierStokesACL <> ACL_T3.hEj var
+R18598:18606 mathcomp.algebra.ssrnum Num.Theory exprn_ge0 thm
+R18630:18632 NavierStokesACL <> ACL_T3.hEj var
+R18630:18632 NavierStokesACL <> ACL_T3.hEj var
+R18646:18661 NavierStokesACL <> ACL_T3.shell_size_bound var
+R18646:18661 NavierStokesACL <> ACL_T3.shell_size_bound var
+R18671:18678 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18671:18678 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18693:18700 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18693:18700 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18715:18722 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18725:18733 mathcomp.algebra.ssrnum Num.Theory ler_wpM2l thm
+R18736:18740 mathcomp.algebra.ssrnum Num.Theory ler0n thm
+R18725:18733 mathcomp.algebra.ssrnum Num.Theory ler_wpM2l thm
+R18736:18740 mathcomp.algebra.ssrnum Num.Theory ler0n thm
+R18715:18722 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18773:18780 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18773:18780 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R18859:18871 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R18809:18812 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18858:18858 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18798:18798 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18803:18807 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18799:18800 NavierStokesACL <> ACL_T3.kj var
+R18851:18853 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18837:18839 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18823:18825 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18818:18821 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18813:18817 NavierStokesACL <> ACL_T3.C_ACL var
+R18826:18826 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18831:18835 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18827:18828 NavierStokesACL <> ACL_T3.kj var
+R18840:18840 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18845:18849 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18841:18842 NavierStokesACL <> ACL_T3.Ej var
+R18854:18855 NavierStokesACL <> ACL_T3.Ej var
+R18896:18898 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18882:18884 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R18877:18880 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18872:18876 NavierStokesACL <> ACL_T3.C_ACL var
+R18885:18885 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18890:18894 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18886:18887 NavierStokesACL <> ACL_T3.kj var
+R18899:18899 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18904:18908 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R18900:18901 NavierStokesACL <> ACL_T3.Ej var
+prf 19011:19022 <> ACL_shell_sq
+R19037:19039 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R19040:19042 NavierStokesACL <> ACL_T3.Nsh var
+binder 19033:19033 <> j:282
+R19064:19067 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R19059:19061 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19047:19047 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19053:19057 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19048:19050 NavierStokesACL <> VSj def
+R19052:19052 NavierStokesACL <> j:282 var
+R19062:19063 NavierStokesACL <> ACL_T3.k0 var
+R19092:19094 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19078:19080 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19073:19076 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19068:19072 NavierStokesACL <> ACL_T3.C_ACL var
+R19081:19081 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19086:19090 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19082:19083 NavierStokesACL <> ACL_T3.kj var
+R19085:19085 NavierStokesACL <> j:282 var
+R19095:19095 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19100:19104 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19096:19097 NavierStokesACL <> ACL_T3.Ej var
+R19099:19099 NavierStokesACL <> j:282 var
+R19132:19139 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R19207:19210 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R19186:19195 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19172:19174 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19158:19160 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19153:19156 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19148:19152 NavierStokesACL <> ACL_T3.C_ACL var
+R19161:19161 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19166:19170 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19162:19163 NavierStokesACL <> ACL_T3.kj var
+R19175:19175 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19180:19184 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19176:19177 NavierStokesACL <> ACL_T3.Ej var
+R19196:19196 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19201:19205 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19197:19198 NavierStokesACL <> ACL_T3.kj var
+R19207:19210 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R19186:19195 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19172:19174 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19158:19160 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19153:19156 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19148:19152 NavierStokesACL <> ACL_T3.C_ACL var
+R19161:19161 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19166:19170 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19162:19163 NavierStokesACL <> ACL_T3.kj var
+R19175:19175 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19180:19184 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19176:19177 NavierStokesACL <> ACL_T3.Ej var
+R19196:19196 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19201:19205 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19197:19198 NavierStokesACL <> ACL_T3.kj var
+R19132:19139 mathcomp.ssreflect.order Order.POrderTheory le_trans thm
+R19224:19229 mathcomp.algebra.ssrnum Num.Theory ler_pM thm
+R19224:19229 mathcomp.algebra.ssrnum Num.Theory ler_pM thm
+R19243:19249 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R19243:19249 mathcomp.algebra.ssrnum Num.Theory sqr_ge0 thm
+R19263:19265 mathcomp.ssreflect.order Order.POrderTheory ltW thm
+R19267:19269 NavierStokesACL <> ACL_T3.hk0 var
+R19267:19269 NavierStokesACL <> ACL_T3.hk0 var
+R19263:19265 mathcomp.ssreflect.order Order.POrderTheory ltW thm
+R19283:19300 NavierStokesACL <> per_shell_combined thm
+R19283:19300 NavierStokesACL <> per_shell_combined thm
+R19314:19324 NavierStokesACL <> ACL_T3.k0_le_kj_sq var
+R19314:19324 NavierStokesACL <> ACL_T3.k0_le_kj_sq var
+R19389:19401 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19375:19377 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19361:19363 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19347:19349 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19342:19345 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19337:19341 NavierStokesACL <> ACL_T3.C_ACL var
+R19350:19350 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19355:19359 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19351:19352 NavierStokesACL <> ACL_T3.kj var
+R19364:19364 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19369:19373 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19365:19366 NavierStokesACL <> ACL_T3.Ej var
+R19378:19378 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19383:19387 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19379:19380 NavierStokesACL <> ACL_T3.kj var
+R19426:19428 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19412:19414 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19407:19410 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19402:19406 NavierStokesACL <> ACL_T3.C_ACL var
+R19415:19415 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19420:19424 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19416:19417 NavierStokesACL <> ACL_T3.kj var
+R19429:19429 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19434:19438 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19430:19431 NavierStokesACL <> ACL_T3.Ej var
+R19511:19515 mathcomp.algebra.ssralg GRing.Theory exprD def
+R19484:19486 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19470:19472 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19459:19459 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19464:19468 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19460:19461 NavierStokesACL <> ACL_T3.kj var
+R19473:19473 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19478:19482 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19474:19475 NavierStokesACL <> ACL_T3.kj var
+R19487:19487 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19492:19496 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19488:19489 NavierStokesACL <> ACL_T3.kj var
+R19511:19515 mathcomp.algebra.ssralg GRing.Theory exprD def
+R19511:19515 mathcomp.algebra.ssralg GRing.Theory exprD def
+R19580:19592 Coq.Init.Logic <> ::type_scope:x_'='_x not
+R19566:19568 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19552:19554 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19538:19540 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19533:19536 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19528:19532 NavierStokesACL <> ACL_T3.C_ACL var
+R19541:19541 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19546:19550 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19542:19543 NavierStokesACL <> ACL_T3.kj var
+R19555:19555 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19560:19564 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19556:19557 NavierStokesACL <> ACL_T3.Ej var
+R19569:19569 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19574:19578 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19570:19571 NavierStokesACL <> ACL_T3.kj var
+R19617:19619 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19603:19605 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R19598:19601 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19593:19597 NavierStokesACL <> ACL_T3.C_ACL var
+R19606:19606 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19611:19615 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19607:19608 NavierStokesACL <> ACL_T3.kj var
+R19620:19620 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19625:19629 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R19621:19622 NavierStokesACL <> ACL_T3.Ej var
+prf 20787:20812 <> angular_cancellation_lemma
+R20827:20829 mathcomp.ssreflect.fintype <> :::'''I_'_x not
+R20830:20832 NavierStokesACL <> ACL_T3.Nsh var
+binder 20823:20823 <> j:283
+R20854:20857 mathcomp.algebra.ssrnum Num.Syntax ::ring_scope:x_'<='_x not
+R20849:20851 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20837:20837 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20843:20847 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20838:20840 NavierStokesACL <> VSj def
+R20842:20842 NavierStokesACL <> j:283 var
+R20852:20853 NavierStokesACL <> ACL_T3.k0 var
+R20882:20884 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20868:20870 mathcomp.algebra.ssralg <> ::ring_scope:x_'*'_x not
+R20863:20866 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20858:20862 NavierStokesACL <> ACL_T3.C_ACL var
+R20871:20871 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20876:20880 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20872:20873 NavierStokesACL <> ACL_T3.kj var
+R20875:20875 NavierStokesACL <> j:283 var
+R20885:20885 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20890:20894 mathcomp.algebra.ssralg <> ::ring_scope:x_'^+'_x not
+R20886:20887 NavierStokesACL <> ACL_T3.Ej var
+R20889:20889 NavierStokesACL <> j:283 var
+R20912:20923 NavierStokesACL <> ACL_shell_sq thm
+R20912:20923 NavierStokesACL <> ACL_shell_sq thm
+R20936:20941 NavierStokesACL ACL_T3 <> sec
+R21460:21485 NavierStokesACL <> angular_cancellation_lemma thm
