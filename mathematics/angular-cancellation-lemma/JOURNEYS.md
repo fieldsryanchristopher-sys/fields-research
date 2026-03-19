@@ -13,9 +13,30 @@ Upload the PDF manuscript and the three Coq files (.v, .vo,
 your personal guide through the result, tuned to what you
 actually want to know.
 
+
 ---
 
-## Journey 1 — "Just Tell Me: Is It Right or Wrong?"
+## Journey 1 — "Give Me the Story"
+
+**This one's for you if:** You're here. That's it. No
+background required, no agenda, just curiosity.
+
+**What you'll get:** A friendly, straight walkthrough of what
+the Navier–Stokes equations are, why they matter, what this
+paper actually advanced, and whether the AI found any
+mathematical errors. No jargon, no hype — just the story.
+
+> **Copy this prompt:**
+>
+> I've uploaded a paper called the Angular Cancellation Lemma
+> and its Coq proof files. Can you tell me what the
+> Navier–Stokes equations are, what important thing this paper
+> advanced, and did you find any mathematical errors? Keep it
+> fun and straightforward.
+
+---
+
+## Journey 2 — "Just Tell Me: Is It Right or Wrong?"
 
 **This one's for you if:** You're a mathematician, a PDE
 researcher, or someone who reads proofs for a living. You don't
@@ -42,7 +63,7 @@ it found any mathematical errors. No hedging. No hand-holding.
 
 ---
 
-## Journey 2 — "What Even Is This?"
+## Journey 3 — "What Even Is This?"
 
 **This one's for you if:** You're curious. Maybe you saw a
 headline, maybe someone sent you a link, maybe you just like
@@ -73,7 +94,7 @@ because you do.
 
 ---
 
-## Journey 3 — "What Does This Mean for the Real World?"
+## Journey 4 — "What Does This Mean for the Real World?"
 
 **This one's for you if:** You work in policy, government,
 defense, infrastructure, or science funding. You need to know
@@ -103,7 +124,7 @@ Practical, direct, focused on what matters for your world.
 
 ---
 
-## Journey 4 — "What Does This Mean for AI?"
+## Journey 5 — "What Does This Mean for AI?"
 
 **This one's for you if:** You work in AI — as a researcher,
 engineer, investor, or journalist. A historian with AI fluency
@@ -136,7 +157,7 @@ who gets to contribute to frontier science.
 
 ---
 
-## Journey 5 — "Where Do We Go from Here?"
+## Journey 6 — "Where Do We Go from Here?"
 
 **This one's for you if:** You're a researcher — PDE analysis,
 formal methods, turbulence theory, or a graduate student looking
