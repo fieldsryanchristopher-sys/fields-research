@@ -10,4 +10,3 @@ Correctly identified that the load-bearing mechanism uses
 absolute values and Cauchy–Schwarz, not signed oscillatory
 cancellation.
 
-**[Full transcript -->](transcript.md)**
