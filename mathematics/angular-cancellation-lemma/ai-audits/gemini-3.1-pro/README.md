@@ -7,4 +7,3 @@ logical chain, Coq architecture, and honest scoping. Found
 no errors. Correctly identified the enstrophy gap and
 suggested research directions.
 
-**[Full transcript -->](transcript.md)**
