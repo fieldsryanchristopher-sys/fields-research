@@ -9,12 +9,3 @@ identified the disconnect and pointed to the actual proof path
 (Appendix D, Coq lemma trans_sum_sq), the model acknowledged
 the error and produced a detailed self-correction report.
 
-The failure mode — pattern-matching to training priors rather
-than tracing the stated proof — is documented in the postmortem
-as a reproducible LLM reasoning pattern.
-
-GPT-5.4 was subsequently used as a third-round edge checker.
-
-- **[Initial transcript -->](transcript-initial.md)**
-- **[Correction transcript -->](transcript-correction.md)**
-- **[Self-correction postmortem -->](postmortem.md)**
