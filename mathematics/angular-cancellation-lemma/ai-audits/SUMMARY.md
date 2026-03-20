@@ -45,3 +45,19 @@ human-readable explanations and serve as an accessibility layer.
 
 ---
 
+---
+
+## Common Failure Modes in AI Mathematical Auditing
+
+During the audit process, specific failure modes were
+observed in how frontier models handle novel geometric
+proofs. These are structural arising from how large
+language models process novelty against trained priors —
+and are documented in a standalone practitioner's guide.
+
+| File | Description |
+|------|-------------|
+| [common-failure-modes.pdf](common-failure-modes.pdf) | Practitioner's guide to training-prior interference |
+
+
+
