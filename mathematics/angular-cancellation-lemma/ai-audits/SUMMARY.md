@@ -1,19 +1,17 @@
 # AI Audit Summary
 
 Three frontier AI systems evaluated the Angular Cancellation
-Lemma under the FIELDS Protocol. Full transcripts are linked
-below.
+Lemma under the FIELDS Protocol. 
 
 ---
 
 ## Results
 
-| Model | Date | Initial | Final | Transcript |
-|-------|------|---------|-------|------------|
-| Claude Opus 4.6 Extended Thinking | Feb 2026 | Correct | Correct | 
-| Gemini 3.1 Pro | Feb 2026 | Correct | Correct | 
-| GPT-5.4 Extended Thinking | Mar 2026 | "Fatal mathematical error" | Correct (after iteration) | 
-
+| Model | Date | Initial | Final |
+|-------|------|---------|-------|
+| Claude Opus 4.6 Extended Thinking | Feb 2026 | Correct | Correct |
+| Gemini 3.1 Pro | Feb 2026 | Correct | Correct |
+| GPT-5.4 Extended Thinking | Mar 2026 | "Fatal mathematical error" | Correct (after iteration) |
 ---
 
 ## What Happened
