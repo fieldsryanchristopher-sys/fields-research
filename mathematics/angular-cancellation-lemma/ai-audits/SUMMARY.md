@@ -10,9 +10,9 @@ below.
 
 | Model | Date | Initial | Final | Transcript |
 |-------|------|---------|-------|------------|
-| Claude Opus 4.6 Extended Thinking | Feb 2026 | Correct | Correct | [Full transcript](claude-opus-4.6/transcript.md) |
-| Gemini 3.1 Pro | Feb 2026 | Correct | Correct | [Full transcript](gemini-3.1-pro/transcript.md) |
-| GPT-5.4 Extended Thinking | Mar 2026 | "Fatal mathematical error" | Correct (after iteration) | [Initial](gpt-5.4/transcript-initial.md) [Correction](gpt-5.4/transcript-correction.md) [Postmortem](gpt-5.4/postmortem.md) |
+| Claude Opus 4.6 Extended Thinking | Feb 2026 | Correct | Correct | 
+| Gemini 3.1 Pro | Feb 2026 | Correct | Correct | 
+| GPT-5.4 Extended Thinking | Mar 2026 | "Fatal mathematical error" | Correct (after iteration) | 
 
 ---
 
@@ -34,8 +34,7 @@ contained a "fatal mathematical error," misidentifying the
 proof mechanism as relying on signed oscillatory cancellation.
 After the author walked the model through the actual proof
 path, GPT-5.4 acknowledged the error and produced a detailed
-self-correction report. Subsequently useful as a third-round
-edge checker.
+self-correction report. 
 
 ---
 
@@ -48,12 +47,3 @@ human-readable explanations and serve as an accessibility layer.
 
 ---
 
-## Failure Mode Analysis
-
-The GPT-5.4 failure illustrates a specific, reproducible
-pattern: the model attacked an imagined mechanism rather than
-the stated one. The actual proof takes absolute values, making
-sign cancellation irrelevant. This pattern — pattern-matching
-to training priors rather than tracing the specific proof — is
-the precise failure mode the FIELDS Protocol is designed to
-prevent.
