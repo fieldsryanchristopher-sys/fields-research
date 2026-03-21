@@ -40,31 +40,41 @@ SHA-256: `150fc78c3df393e8d1461cd895932582c88896918be5979e6f8c3c5e679555eb`
 
 ## Verify It Yourself
 
-**Option 1 — One command (requires Docker):**
-```
+**Option 1 — Mac (Coq Platform, recommended)**
+
+Install [Coq Platform 8.20](https://github.com/coq/platform/releases) then:
+```bash
 git clone https://github.com/fieldsryanchristopher-sys/fields-research.git
 cd fields-research/mathematics/angular-cancellation-lemma
-docker run --rm -v "$PWD":/work -w /work \
-  coqorg/coq:8.20 bash -c \
-  "coqc NavierStokesACL.v && coqchk -Q . '' NavierStokesACL"
+/Applications/Coq-Platform~8.20~2025.01.app/Contents/Resources/bin/coqc NavierStokesACL.v
+/Applications/Coq-Platform~8.20~2025.01.app/Contents/Resources/bin/coqchk -Q . "" NavierStokesACL
 ```
 
-If it exits with "Modules were successfully checked" — the
-proof is verified. Zero trust required.
-
-**Option 2 — Full local installation:**
-Install Coq Platform 8.20 (release 2025.01) from
-https://github.com/coq/platform/releases. Then:
-```
+**Option 2 — Linux/Windows**
+```bash
+git clone https://github.com/fieldsryanchristopher-sys/fields-research.git
+cd fields-research/mathematics/angular-cancellation-lemma
 coqc NavierStokesACL.v
 coqchk -Q . "" NavierStokesACL
 ```
 
-**Confirm zero Admitted:**
+**Option 3 — Docker (platform-independent, slower first run)**
+```bash
+git clone https://github.com/fieldsryanchristopher-sys/fields-research.git
+cd fields-research/mathematics/angular-cancellation-lemma
+docker run --rm --platform linux/amd64 -v "$PWD":/work -w /work coqorg/coq:8.20 bash -c "opam install -y coq-mathcomp-analysis coq-hierarchy-builder 2>/dev/null; coqc NavierStokesACL.v && coqchk -Q . '' NavierStokesACL"
 ```
+
+> Note: Docker option installs dependencies on first run (~10 minutes). Subsequent runs are faster.
+
+Expected output for all options: `Modules were successfully checked`
+
+Confirm zero Admitted:
+```bash
 grep -c "Admitted" NavierStokesACL.v
 ```
-Expected output: `0`
+
+Expected: `0`
 
 ## Developed in Partnership with AI
 
