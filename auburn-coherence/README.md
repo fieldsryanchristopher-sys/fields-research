@@ -17,3 +17,16 @@ DOI: [10.6084/m9.figshare.31271878](https://doi.org/10.6084/m9.figshare.31271878
 Zero contradicted. USD $12–15 billion in associated economic
 losses.
 DOI: [10.6084/m9.figshare.31441348](https://doi.org/10.6084/m9.figshare.31441348)
+
+
+> **Status note (March 2026):** This line of investigation
+> emerged from the geometric research that produced the
+> Angular Cancellation Lemma. The predictions documented here
+> were issued in February 2026 and verified against observed
+> outcomes. This work is currently paused. The underlying
+> calibration parameters and coherence decay tensors may not
+> be fully reproducible from the materials published here. 
+> To be frank, I may need to try and build the system again.
+> The governing equations remain proprietary and redacted.
+> This section of the portfolio documents what was explored,
+> not what is being actively maintained.
