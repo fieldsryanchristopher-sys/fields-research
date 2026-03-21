@@ -58,6 +58,18 @@ and are documented in a standalone practitioner's guide.
 | File | Description |
 |------|-------------|
 | [common-failure-modes.pdf](common-failure-modes.pdf) | Practitioner's guide to training-prior interference |
+| [common-failure-modes-part-2.pdf](common-failure-modes-part-2.pdf) | Part 2: Prompt-dependent prior activation |
 
+Part 1 documents six failure modes observed across multiple
+systems: training-prior hijack, phantom counterexample,
+verification artifact neglect, premature authoritative
+verdict, graduated retreat, and supplementary material
+neglect.
 
+Part 2 documents a seventh failure mode: the same AI system
+producing opposite verdicts on identical mathematics under
+different conversational framing. This finding affirms that
+formal verification must remain the final arbiter of
+mathematical correctness and that human mathematical
+expertise remains structurally indispensable.
 
