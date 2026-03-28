@@ -146,9 +146,19 @@ Core principle: *Assume the main theorem is false unless every
 plausible failure route is explicitly neutralised by the
 manuscript.*
 
+
 | File | Description |
 |------|-------------|
 | [fields-adversarial-protocol.pdf](fields-adversarial-protocol.pdf) | FAP v2.0 — Full protocol specification and ACL demonstration |
+
+
+## ACL COQ Deep Dive Line by Line Rough Draft
+
+A line by line deep dive again of the ACL COQ. It's a rough draft, still in the works. Not really where I want it, but it's doable for a V1. 
+
+| File | Description |
+|------|-------------|
+| [acl-coq-deep-dive.pdf]() | ACL COQ DEEP DIVE |
 
 ## Citation
 
