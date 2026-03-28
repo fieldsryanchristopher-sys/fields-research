@@ -129,6 +129,27 @@ are published.
 | [NavierStokesACL.vo](NavierStokesACL.vo) | Compiled proof object |
 | [NavierStokesACL.glob](NavierStokesACL.glob) | Reference file |
 
+## FIELDS Adversarial Protocol (FAP v2.0)
+
+A structured hostile-referee framework for mathematical audit.
+While AI systems audit for computational correctness, FAP
+simulates what a hostile expert human referee would do —
+systematically executing every plausible failure route through
+which the manuscript could be invalidated.
+
+The protocol includes a 16-route attack taxonomy, severity
+classification, load-bearing analysis, counterfactual break
+analysis, and a final verdict framework. The ACL manuscript
+was the first demonstration target.
+
+Core principle: *Assume the main theorem is false unless every
+plausible failure route is explicitly neutralised by the
+manuscript.*
+
+| File | Description |
+|------|-------------|
+| [fields-adversarial-protocol.pdf](fields-adversarial-protocol.pdf) | FAP v2.0 — Full protocol specification and ACL demonstration |
+
 ## Citation
 
 DOI: [10.6084/m9.figshare.31392684](https://doi.org/10.6084/m9.figshare.31392684)
