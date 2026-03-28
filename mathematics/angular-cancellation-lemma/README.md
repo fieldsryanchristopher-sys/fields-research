@@ -158,7 +158,7 @@ A line by line deep dive again of the ACL COQ. It's a rough draft, still in the 
 
 | File | Description |
 |------|-------------|
-| [acl-coq-deep-dive.pdf]() | ACL COQ DEEP DIVE |
+| [acl-coq-deep-dive.pdf](https://github.com/fieldsryanchristopher-sys/fields-research/blob/main/mathematics/angular-cancellation-lemma/acl-coq-deep-dive.pdf) | ACL COQ DEEP DIVE |
 
 ## Citation
 
