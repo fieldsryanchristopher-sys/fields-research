@@ -36,34 +36,7 @@ mathematical errors. No jargon, no hype — just the story.
 
 ---
 
-## Journey 2 — "Just Tell Me: Is It Right or Wrong?"
-
-**This one's for you if:** You're a mathematician, a PDE
-researcher, or someone who reads proofs for a living. You don't
-need motivation or analogies. You want the axiom inventory, the
-proof chain, the trust boundary, and a straight answer.
-
-**What you'll get:** A blunt, technical audit of the entire
-paper. The AI will trace every step of the Coq formalization,
-cross-reference it against the analytical arguments, identify
-exactly what's proved versus what's assumed, check the exponent
-accounting, and give you a direct verdict — including whether
-it found any mathematical errors. No hedging. No hand-holding.
-
-> **Copy this prompt:**
->
-> I'm a working mathematician. I've uploaded the Angular
-> Cancellation Lemma manuscript and its Coq formalization.
-> Read the full PDF and the complete .v source file. Give me
-> a rigorous audit of the entire paper: axiom inventory, the
-> full proof chain, exponent accounting, and whether every
-> analytical argument is justified. Did you find any
-> mathematical errors? Tell me precisely what is proved, what
-> is assumed, and what remains open. Be direct.
-
----
-
-## Journey 3 — "What Even Is This?"
+## Journey 2 — "What Even Is This?"
 
 **This one's for you if:** You're curious. Maybe you saw a
 headline, maybe someone sent you a link, maybe you just like
@@ -94,7 +67,7 @@ because you do.
 
 ---
 
-## Journey 4 — "What Does This Mean for the Real World?"
+## Journey 3 — "What Does This Mean for the Real World?"
 
 **This one's for you if:** You work in policy, government,
 defense, infrastructure, or science funding. You need to know
@@ -124,7 +97,7 @@ Practical, direct, focused on what matters for your world.
 
 ---
 
-## Journey 5 — "What Does This Mean for AI?"
+## Journey 4 — "What Does This Mean for AI?"
 
 **This one's for you if:** You work in AI — as a researcher,
 engineer, investor, or journalist. A historian with AI fluency
@@ -157,7 +130,7 @@ who gets to contribute to frontier science.
 
 ---
 
-## Journey 6 — "Where Do We Go from Here?"
+## Journey 5 — "Where Do We Go from Here?"
 
 **This one's for you if:** You're a researcher — PDE analysis,
 formal methods, turbulence theory, or a graduate student looking
