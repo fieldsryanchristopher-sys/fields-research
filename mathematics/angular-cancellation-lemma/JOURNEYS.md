@@ -8,10 +8,12 @@ system.
 **How it works:** Pick the journey below that sounds like you.
 Copy the prompt underneath it. Open your preferred AI (Claude,
 Gemini, ChatGPT, or any model with long-context capability).
-Upload the PDF manuscript and the three Coq files (.v, .vo,
-.glob) from this repository. Paste the prompt. The AI becomes
+Upload the PDF manuscript, the three Coq files (.v, .vo,
+.glob), and other files from this repository. Paste the prompt. The AI becomes
 your personal guide through the result, tuned to what you
 actually want to know.
+
+However, I would recommend starting with Journey 1, and then going down one by one for a full understanding.
 
 
 ---
