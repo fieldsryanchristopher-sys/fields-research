@@ -5,6 +5,23 @@ and machine-verified number theory.
 
 ---
 
+## Auburn Roses | Global Regularity T3 Programme
+
+A governance research programme on the hallucination tax,
+stress-tested on the 3D incompressible Navier-Stokes
+existence and smoothness problem. 42 documents. ~59
+machine-verified theorems. 22 documented AI failure modes.
+17 permanent axioms verified against the classical
+literature. Three frontier AI systems. Zero Admitted
+statements.
+
+The mathematics is the instrument. The governance is the
+contribution.
+
+DOI (manuscript + Coq): **[10.6084/m9.figshare.31937415](https://doi.org/10.6084/m9.figshare.31937415)**
+
+---
+
 ### [Angular Cancellation Lemma](angular-cancellation-lemma/)
 A machine-verified geometric bound on shell-local vortex
 stretching for the 3D incompressible Navier–Stokes equations.
