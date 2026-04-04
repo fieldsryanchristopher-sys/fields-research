@@ -20,6 +20,8 @@ contribution.
 
 DOI (manuscript + Coq): **[10.6084/m9.figshare.31937415](https://doi.org/10.6084/m9.figshare.31937415)**
 
+**[Enter the corpus →](auburn-roses/)**
+
 ---
 
 ### [Angular Cancellation Lemma](angular-cancellation-lemma/)
