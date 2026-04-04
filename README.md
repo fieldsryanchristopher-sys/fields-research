@@ -18,6 +18,17 @@ contains the full manuscript and any accompanying source files.
 Figshare DOI links are provided for timestamped provenance.
 
 ---
+> **April 2026 — New: Subcritical Energy Estimates for 3D
+> Incompressible Navier-Stokes on T³ via Angular Cancellation
+> and Cascade Isotropisation.** Machine-verified global
+> regularity programme. ~59 Qed theorems. Zero Admitted. Coq
+> formalization. Three frontier AI systems audited. 22
+> documented failure modes. 42 documents.
+> **[Enter Auburn Roses →](mathematics/auburn-roses/)**
+> | **[DOI](https://doi.org/10.6084/m9.figshare.31937415)**
+
+---
+
 
 ## Auburn Governance Stack
 
